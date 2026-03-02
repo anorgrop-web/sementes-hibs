@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import { useSearchParams } from 'next/navigation'
 import Link from "next/link"
 import Image from "next/image"
-import { CheckCircle, Mail, ArrowRight } from 'lucide-react'
+import { CheckCircle, Mail, ArrowRight, Smartphone } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { trackHybridEvent } from "@/components/hybrid-tracker"
 
@@ -120,6 +120,21 @@ export default function ThankYouPage() {
                 <span>Our customer support team is available 24/7 for any questions</span>
               </li>
             </ul>
+          </div>
+
+          {/* App Download Banner */}
+          <div className="bg-[#016630] text-white rounded-lg p-6 mb-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-md">
+            <div className="flex items-center gap-4">
+              <Smartphone className="h-8 w-8 text-white flex-shrink-0" />
+              <p className="font-medium text-lg text-left text-balance">
+                {"Guarantee your Hibiscus blooms by downloading our App and get the '21 Days to Perfect Flowers' guide."}
+              </p>
+            </div>
+            <Button asChild className="bg-white text-[#016630] hover:bg-gray-100 font-bold whitespace-nowrap">
+              <Link href="https://app.versiagarden.com/install" target="_blank">
+                Download App
+              </Link>
+            </Button>
           </div>
 
           {/* CTA Buttons */}
