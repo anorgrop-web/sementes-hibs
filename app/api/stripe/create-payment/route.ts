@@ -105,7 +105,16 @@ export async function POST(request: NextRequest) {
         payment_method: paymentMethodId,
         off_session: true,
         confirm: true,
-        description: "Versia Garden Kit - Shipping fee",
+        description: "Versia Garden Kit + App",
+        shipping: {
+          name: `${customerData.firstName} ${customerData.lastName}`,
+          address: {
+            line1: customerData.address,
+            city: customerData.city,
+            postal_code: customerData.postcode,
+            country: customerData.country,
+          },
+        },
         metadata: {
           type: "one-time-shipping",
           subscription_id: appSubscription.id,
