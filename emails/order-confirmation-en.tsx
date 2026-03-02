@@ -1,5 +1,6 @@
 import {
   Body,
+  Button,
   Container,
   Column,
   Head,
@@ -92,6 +93,18 @@ export const OrderConfirmationEn = ({
               with care.
             </Text>
           </Section>
+
+          {/* App Download CTA */}
+          <Section style={appPromoSection}>
+            <Text style={appPromoText}>
+              {"Guarantee your Hibiscus blooms by downloading our App and get the '21 Days to Perfect Flowers' guide."}
+            </Text>
+            <Button href="https://app.versiagarden.com/install" style={appPromoButton}>
+              Download the App
+            </Button>
+          </Section>
+
+          <Hr style={divider} />
 
           {/* Order Summary */}
           <Section style={contentSection}>
@@ -459,4 +472,32 @@ const footerCopyright: React.CSSProperties = {
   fontSize: "12px",
   color: "#9ca3af",
   margin: "0",
+}
+
+const appPromoSection: React.CSSProperties = {
+  backgroundColor: "#ecfdf5",
+  padding: "24px",
+  borderRadius: "8px",
+  textAlign: "center" as const,
+  margin: "0 40px 24px 40px",
+  border: "1px solid #a7f3d0",
+}
+
+const appPromoText: React.CSSProperties = {
+  fontSize: "16px",
+  fontWeight: "600",
+  color: "#016630",
+  lineHeight: "1.5",
+  margin: "0 0 16px 0",
+}
+
+const appPromoButton: React.CSSProperties = {
+  backgroundColor: "#016630",
+  color: "#ffffff",
+  padding: "12px 24px",
+  borderRadius: "6px",
+  textDecoration: "none",
+  fontWeight: "bold",
+  display: "inline-block",
+  fontSize: "15px",
 }
