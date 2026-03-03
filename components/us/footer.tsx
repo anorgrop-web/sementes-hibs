@@ -1,5 +1,9 @@
 import Link from "next/link"
 
+export function FooterUS() {
+  return <Footer />
+}
+
 export function Footer() {
   const policyLinks = [
     { label: "Refund Policy", href: "/us/refund-policy" },
