@@ -2,12 +2,11 @@ import Link from "next/link"
 
 export function Footer() {
   const policyLinks = [
-    { label: "Politique de Remboursement", href: "/fr/refund-policy" },
-    { label: "Livraison", href: "/fr/shipping-policy" },
-    { label: "Politique de Confidentialité", href: "/fr/privacy-policy" },
-    { label: "CGV", href: "/fr/terms-of-service" },
-    { label: "Mentions Légales", href: "/fr/mentions-legales" },
-    { label: "Contact", href: "/fr/contact" },
+    { label: "Política de Reembolso", href: "/pt/refund-policy" },
+    { label: "Envio", href: "/pt/shipping-policy" },
+    { label: "Política de Privacidade", href: "/pt/privacy-policy" },
+    { label: "Termos de Serviço", href: "/pt/terms-of-service" },
+    { label: "Contacto", href: "/pt/contact" },
   ]
 
   const paymentMethods = [
@@ -58,12 +57,12 @@ export function Footer() {
 
         {/* Company Info */}
         <div className="text-center space-y-1">
-          <p className="text-sm text-white/80">© 2026 Versia Garden. Tous droits réservés.</p>
+          <p className="text-sm text-white/80">© 2026 Versia Garden. Todos os direitos reservados.</p>
           <p className="text-xs text-white/60">
-            Exploité par : 57.203.094 MARIA CLARA RODRIGUES LEITE | CNPJ : 57.203.094/0001-13
+            Operado por: 57.203.094 MARIA CLARA RODRIGUES LEITE | CNPJ: 57.203.094/0001-13
           </p>
           <p className="text-xs text-white/60">
-            Avenida Girassol, 29.156-572, Cariacica, ES, Brésil |{" "}
+            Avenida Girassol, 29.156-572, Cariacica, ES, Brasil |{" "}
             <a href="mailto:info@versiagarden.com" className="hover:text-white/80 transition-colors">
               info@versiagarden.com
             </a>
