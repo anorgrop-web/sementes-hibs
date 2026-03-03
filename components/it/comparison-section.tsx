@@ -2,13 +2,14 @@ import { Check, X } from 'lucide-react'
 
 export function ComparisonSection() {
   const features = [
-    "Giovani Piante Curate Professionalmente non OGM",
-    "Garanzia di Arrivo Sano e Crescita",
-    "Kit Completo con Guida e Garanzia",
-    "Supporto Clienti 24/7",
-    "Pagamento 100% Sicuro Con Crittografia SSL",
-    "Guida alla Germinazione con Istruzioni Passo-Passo",
-    "Guida alla Piantagione e Cura con Istruzioni Passo-Passo",
+    "Semi Pre-Attivati — Germogliano in 7 Giorni",
+    "Substrato Esclusivo per Germinazione Ibisco Incluso",
+    "Fertilizzante Professionale Acceleratore di Fioritura Incluso",
+    "Fungicida Protettivo per una Crescita Sana",
+    "App con Video-Lezioni — Dal Seme alla Fioritura",
+    "Garanzia di Germinazione (80%+ in 21 Giorni)",
+    "Assistenza Clienti 24/7",
+    "Pagamento 100% Sicuro con Crittografia SSL",
   ]
 
   return (
@@ -18,9 +19,9 @@ export function ComparisonSection() {
           {/* Heading */}
           <div className="lg:max-w-md">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">
-              Perché scegliere il Kit di Giovani Piante di Ibisco di Versia Garden?
+              Perché Scegliere il Kit Coltivazione Ibisco di Versia Garden?
             </h2>
-            <p className="text-muted-foreground">Scopri perché i nostri kit offrono risultati superiori.</p>
+            <p className="text-muted-foreground">Scopra perché il nostro sistema completo offre risultati che i semi sfusi non potrebbero mai dare.</p>
           </div>
 
           {/* Comparison Table */}

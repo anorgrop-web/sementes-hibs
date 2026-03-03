@@ -4,9 +4,9 @@ export function TechnicalDataSection() {
       <div className="max-w-4xl mx-auto space-y-8">
         {/* Technical Data Sheet Card */}
         <div className="bg-white rounded-lg p-8 shadow-sm">
-          <h2 className="text-3xl font-bold text-[#3d6f5f] mb-4">Scheda Tecnica: Varietà di Ibisco Raro.</h2>
+          <h2 className="text-3xl font-bold text-[#3d6f5f] mb-4">Scheda Tecnica: Kit Coltivazione Ibisco</h2>
           <p className="text-gray-700 mb-8">
-            Per il massimo successo nella coltivazione, abbiamo preparato una guida completa con tutte le informazioni che devi sapere su questi fiori spettacolari.
+            Tutto quello che deve sapere sul Suo Kit di Coltivazione e sulle rare varietà di Ibisco all&apos;interno.
           </p>
 
           <div className="space-y-0 border border-gray-200 rounded-lg overflow-hidden">
@@ -34,11 +34,35 @@ export function TechnicalDataSection() {
               </div>
             </div>
 
+            {/* Seed Type */}
+            <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
+              <div className="p-4 font-semibold bg-gray-50">Tipo di Seme</div>
+              <div className="p-4 md:col-span-2">
+                Pre-Attivato (senza dormienza — germinazione immediata)
+              </div>
+            </div>
+
+            {/* Germination Time */}
+            <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
+              <div className="p-4 font-semibold bg-gray-50">Tempo di Germinazione</div>
+              <div className="p-4 md:col-span-2">
+                <span className="text-green-700 font-semibold">5-7 giorni</span> in condizioni ottimali
+              </div>
+            </div>
+
+            {/* Kit Contents */}
+            <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
+              <div className="p-4 font-semibold bg-gray-50">Contenuto del Kit</div>
+              <div className="p-4 md:col-span-2">
+                Semi pre-attivati, substrato esclusivo per germinazione, fertilizzante acceleratore di fioritura, fungicida protettivo, accesso all&apos;app con video-lezioni
+              </div>
+            </div>
+
             {/* Flower Colors */}
             <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
               <div className="p-4 font-semibold bg-gray-50">Colori dei Fiori</div>
               <div className="p-4 md:col-span-2">
-                I nostri kit contengono giovani piantine sane di varietà rare con combinazioni di colori esotici e vibranti.
+                Varietà rare con combinazioni di colori esotici e vibranti (Rosso, Giallo, Rosa, Viola, Misti)
               </div>
             </div>
 
@@ -76,7 +100,7 @@ export function TechnicalDataSection() {
             <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
               <div className="p-4 font-semibold bg-gray-50">Tipo di Terreno</div>
               <div className="p-4 md:col-span-2">
-                Fertile, ben drenante e ricco di materia organica. Leggermente acido (pH 6,5-6,8).
+                Substrato esclusivo per ibisco incluso. Fertile, ben drenante, leggermente acido (pH 6,5-6,8).
               </div>
             </div>
 
@@ -84,7 +108,7 @@ export function TechnicalDataSection() {
             <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
               <div className="p-4 font-semibold bg-gray-50">Altezza della Pianta</div>
               <div className="p-4 md:col-span-2">
-                Da 0,5 a 2 metri (1,64-6,5 piedi), a seconda della varietà e della potatura.
+                Da 0,5 a 2 metri, a seconda della varietà e della potatura.
               </div>
             </div>
 

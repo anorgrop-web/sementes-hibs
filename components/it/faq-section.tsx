@@ -14,41 +14,39 @@ export function FaqSection() {
         </h2>
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
-            <AccordionTrigger>Qual è la dimensione delle piantine?</AccordionTrigger>
+            <AccordionTrigger>Quanto velocemente germoglieranno i semi?</AccordionTrigger>
             <AccordionContent>
-              Le nostre piante vengono spedite con un'altezza robusta tra{" "}
-              <strong>10cm e 15cm</strong>, con un sistema radicale ben sviluppato e
-              pronto per una crescita rapida.
+              I nostri semi sono pre-attivati — arrivano senza periodo di dormienza. Piantati nel substrato esclusivo incluso e mantenuti nelle condizioni giuste, dovrebbe vedere i primi germogli spuntare entro <strong>7 giorni</strong>. L&apos;App Versia Garden La guiderà verso le condizioni ottimali per la germinazione più rapida.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>È una pianta perenne?</AccordionTrigger>
+            <AccordionTrigger>Serve esperienza di giardinaggio?</AccordionTrigger>
             <AccordionContent>
-              Sì, sono piante perenni. Generalmente offrono una fioritura
-              spettacolare dalla{" "}
-              <strong>
-                tarda primavera per tutta l'estate fino all'autunno inoltrato
-              </strong>
-              . Nei climi più caldi, possono fiorire quasi tutto l'anno.
+              Assolutamente no. Il Kit di Coltivazione include tutto il necessario, e l&apos;App Versia Garden fornisce video-lezioni passo-passo che coprono l&apos;intero percorso — dalla semina al primo fiore spettacolare. È come avere un botanico personale in tasca.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger>Posso piantarle in autunno o inverno?</AccordionTrigger>
+            <AccordionTrigger>E se i miei semi non germinano?</AccordionTrigger>
             <AccordionContent>
-              Assolutamente! Possono essere piantate tutto l'anno. Nei mesi più
-              freddi, consigliamo di iniziare in vaso all'interno o in una serra
-              vicino a una finestra soleggiata, spostandole all'esterno una volta
-              passato il rischio di gelo.
+              Garantiamo almeno l&apos;<strong>80% di germinazione entro 21 giorni</strong> utilizzando il substrato incluso e seguendo le istruzioni dell&apos;app. Se i Suoi risultati scendono sotto questa soglia, Le invieremo semi sostitutivi senza costi. Il Suo successo conta più di qualsiasi altra cosa per noi.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
-            <AccordionTrigger>Richiedono molta manutenzione?</AccordionTrigger>
+            <AccordionTrigger>Quanto tempo ci vuole per vedere i primi fiori?</AccordionTrigger>
             <AccordionContent>
-              Affatto. Sono piante semplici che prosperano facilmente. Consigli
-              chiave: assicurati che ricevano{" "}
-              <strong>4-6 ore di sole diretto</strong> al giorno, mantieni il
-              terreno costantemente umido (ma non inzuppato) e usa un fertilizzante
-              bilanciato durante la stagione di fioritura.
+              L&apos;ibisco generalmente inizia a fiorire entro <strong>4-6 mesi</strong> dalla germinazione, a seconda delle condizioni. Il fertilizzante Versia Bloom Accelerator incluso è specificamente formulato per promuovere una fioritura più rapida e abbondante. L&apos;app monitora i Suoi progressi e Le fa sapere cosa aspettarsi in ogni fase.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-5">
+            <AccordionTrigger>Posso iniziare il kit in casa?</AccordionTrigger>
+            <AccordionContent>
+              Assolutamente. Anzi, iniziare in casa è l&apos;ideale. I semi e il substrato funzionano perfettamente su un davanzale soleggiato, in un giardino d&apos;inverno o in qualsiasi punto luminoso. Una volta che le piante sono affermate e il clima è abbastanza caldo, può trapiantarle all&apos;esterno. L&apos;app Le dirà esattamente quando e come.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-6">
+            <AccordionTrigger>{"L'ibisco è una pianta perenne?"}</AccordionTrigger>
+            <AccordionContent>
+              Sì. Una volta stabilito, l&apos;ibisco è una pianta perenne che fiorisce in modo spettacolare dalla <strong>tarda primavera fino all&apos;autunno inoltrato</strong>. Nei climi più caldi, può fiorire quasi tutto l&apos;anno. Nelle regioni più fredde, basta portare la pianta in vaso all&apos;interno prima del primo gelo.
             </AccordionContent>
           </AccordionItem>
         </Accordion>

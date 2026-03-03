@@ -8,16 +8,16 @@ export function GerminationSection() {
           {/* Text Content - Shows first on mobile, left on desktop */}
           <div className="md:w-1/2 md:order-1">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-              LA NOSTRA CURA ESPERTA GARANTISCE CHE LE TUE PIANTE PROSPERINO
+              SEMI PRE-ATTIVATI: LA VITA È GIÀ IN ATTESA ALL&apos;INTERNO
             </h2>
 
             <div className="space-y-4 text-base md:text-lg text-gray-700 leading-relaxed">
               <p>
-                Ognuna delle nostre giovani piante è curata da coltivatori esperti per sviluppare un sistema radicale robusto, rendendola forte e resiliente.
+                La maggior parte dei semi di ibisco resta dormiente per settimane prima di iniziare a svegliarsi. I nostri no. Prepariamo con cura ogni seme per rimuovere la barriera della dormienza, così nel momento in cui tocca il substrato, la germinazione inizia immediatamente.
               </p>
 
               <p>
-                Le spediamo direttamente dal nostro vivaio a te in imballaggi su misura e sicuri. Questo assicura che la tua pianta arrivi sana e pronta a prosperare, saltando completamente la fase fragile e incerta della germinazione.
+                Insieme al nostro substrato esclusivo per la germinazione dell&apos;ibisco e al fertilizzante Versia Bloom Accelerator, i Suoi semi hanno tutto il necessario per germogliare in 7 giorni o meno. E con l&apos;App Versia Garden che La guida passo-passo con video-lezioni, saprà esattamente cosa fare — e quando farlo — dal seme alla fioritura spettacolare.
               </p>
             </div>
           </div>

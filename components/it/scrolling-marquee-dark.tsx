@@ -1,7 +1,7 @@
 "use client"
 
 export function ScrollingMarqueeDark() {
-  const messages = ["Garanzia di Crescita", "Pagamento sicuro", "Spedizione tracciata"]
+  const messages = ["Germoglia in 7 Giorni", "Sistema di Coltivazione Completo", "Pagamento Sicuro", "Spedizione Tracciata"]
 
   // Duplicate messages for seamless loop
   const allMessages = [...messages, ...messages, ...messages, ...messages]

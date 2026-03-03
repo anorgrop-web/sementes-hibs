@@ -17,47 +17,47 @@ const reviews = [
   {
     id: 1,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/Gemini_Generated_Image_ltnw6mltnw6mltnw.png',
-    text: "L'atmosfera sembra più allegra, con un'atmosfera tropicale, quasi come un rifugio vacanziero privato. È la prima cosa che i miei amici commentano quando mi visitano",
+    text: "Non avrei mai pensato di poter coltivare ibisco dal seme — ma questo kit lo ha reso quasi troppo facile. Ho visto i primi germogli in 5 giorni. Cinque giorni! Ora ho un balcone pieno di colore che fa invidia ai vicini.",
   },
   {
     id: 2,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/Gemini_Generated_Image_4zk4nd4zk4nd4zk4.png',
-    text: "L'esuberanza dei suoi fiori mi trasporta lontano dal rumore e dal cemento.",
+    text: "L'app è una rivoluzione. Ogni volta che non ero sicura di cosa fare, c'era un video pronto per me. Come avere un esperto di giardinaggio a portata di mano.",
   },
   {
     id: 3,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/Gemini_Generated_Image_qczasfqczasfqcza.png',
-    text: "Tutti i miei amici me lo chiedono ogni volta che pubblico una foto. Non illumina solo il mio spazio, illumina il mio feed. È una bellezza che vale la pena condividere.",
+    text: "Tutti i miei amici me lo chiedono quando pubblico una foto. Coltivarli dal seme li rende ancora più speciali — dico a tutti 'l'ho coltivato da un semino' e non ci credono.",
   },
   {
     id: 4,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/Gemini_Generated_Image_4tkvsy4tkvsy4tkv.png',
-    text: "Tra il lavoro, la famiglia e la corsa quotidiana, raramente ho un momento per me. Il mio piccolo angolo con l'Ibisco è diventato il mio santuario. Prendermene cura per cinque minuti, vedendo il colore incredibile dei fiori: questa è la mia meditazione. Mi porta una calma che non riesco a trovare da nessun'altra parte. È il mio lusso quotidiano di tranquillità.",
+    text: "Tra lavoro, figli e vita quotidiana, non ho quasi mai tempo per me. Ma controllare le mie piantine ogni mattina è diventato il mio piccolo rituale. Guardarle crescere dal nulla fino a questi fiori incredibili... è davvero terapeutico.",
   },
   {
     id: 5,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/Gemini_Generated_Image_u2en2du2en2du2en.png',
-    text: "I fiori sono enormi, vibranti e durano tutto il giorno, cambiando tonalità con la luce. Non si tratta solo di avere una bella pianta; si tratta di avere un rituale quotidiano che ti connette a qualcosa di semplice e perfetto.",
+    text: "I fiori sono enormi, vibranti e durano tutto il giorno. Sapere che li ho coltivati da un seme, con le mie mani, usando questo kit — quella sensazione non ha prezzo. Non è solo giardinaggio, è creare qualcosa di bello.",
   },
   {
     id: 6,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/image%20874.png',
-    text: "I risultati parlano da soli: una fioritura abbondante e spettacolare. Per chiunque prenda sul serio il giardinaggio, questa è una scommessa sicura.",
+    text: "Ho comprato semi online prima e ho avuto solo delusioni. Questo è stato completamente diverso. Il substrato, il fertilizzante, l'app — tutto funziona insieme. 9 semi su 10 sono germogliati. Incredibile.",
   },
   {
     id: 7,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/image%20877.png',
-    text: "Ci siamo trasferiti di recente e stavo cercando quel pezzo per far sentire davvero la casa come casa. L'ho trovato in questo Ibisco. Con la sua esplosione di colore, ha portato esattamente l'energia e la personalità che mancava al nostro soggiorno.",
+    text: "Ci siamo trasferiti di recente e volevo qualcosa che facesse sentire il nuovo giardino come nostro. Coltivare questi ibisco dal seme ha fatto esattamente questo. Ogni fiore sembra personale.",
   },
   {
     id: 8,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/image%20878.png',
-    text: "Mio marito mi ha regalato questa piantina di Ibisco per il nostro anniversario, ed è il regalo più speciale che abbia mai ricevuto. Invece di fiori che muoiono in una settimana, ho ottenuto fiori che sbocciano ogni settimana! Ogni nuovo bocciolo che si apre sembra una piccola celebrazione del nostro amore e della nostra vita. È un regalo che letteralmente continua a fiorire.",
+    text: "Mia moglie mi ha regalato questo kit per il compleanno. Miglior regalo di sempre. Abbiamo seguito i progressi insieme — dai piccoli germogli ai bellissimi boccioli. È diventata la nostra cosa.",
   },
   {
     id: 9,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/image%20875.png',
-    text: "Ho sempre apprezzato il design e l'estetica, e per me, il fiore di Ibisco è un'opera d'arte della natura. I dettagli sono incredibili: la delicata texture dei petali, il gradiente di colore, il contrasto del pistillo... è una struttura perfetta.",
+    text: "Apprezzo il design e l'estetica, e l'ibisco a petali doppi è un capolavoro della natura. Coltivarlo da soli lo rende ancora più soddisfacente. I gradienti di colore sono irreali.",
   },
 ]
 
@@ -83,7 +83,7 @@ export function CustomerReviewsSection() {
     <section className="py-16 px-4 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12">
-          Approvato dai nostri clienti
+          Dal Seme allo Spettacolo — Le Storie dei Nostri Coltivatori
         </h2>
         
         <div className="relative px-4 md:px-16">

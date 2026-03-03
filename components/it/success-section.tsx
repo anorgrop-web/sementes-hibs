@@ -22,10 +22,10 @@ export function SuccessSection() {
           {/* Content */}
           <div className="order-2 text-white">
             <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 text-balance">
-              Un Inizio Perfetto per il Tuo Ibisco Raro
+              Tutto Ciò che Si Frappone tra Lei e uno Straordinario Giardino di Ibisco — Risolto.
             </h2>
             <p className="text-base lg:text-lg leading-relaxed">
-              Salta la parte più difficile della coltivazione. Il nostro kit ti fornisce giovani piante sane e affermate, dandoti un enorme vantaggio. Includiamo una Guida Completa alla Piantagione e Cura per garantire il tuo successo fin dal primo giorno.
+              Coltivare dal seme significava incertezza, tentativi e delusioni. Non più. Il nostro Kit di Coltivazione sostituisce tutto questo con un sistema collaudato: semi pre-attivati che germogliano in 7 giorni, un substrato esclusivo formulato specificamente per l&apos;ibisco, fertilizzante e fungicida professionali, e un&apos;app che La guida con video-lezioni in ogni fase. Questo non è solo un pacchetto di semi — è il percorso più breve verso un giardino che fa fermare le persone ad ammirare.
             </p>
           </div>
         </div>

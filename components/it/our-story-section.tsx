@@ -25,11 +25,11 @@ export function OurStorySection() {
 
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                La storia di Versia Garden inizia con la passione della nostra fondatrice, la botanica Helena Viana, per il potere dei fiori di trasformare l'ordinario nello straordinario. Ha visto che migliaia di persone condividevano questo sogno ma erano trattenute dalla frustrazione di piante rare inaccessibili e difficili da coltivare. La sua missione è diventata chiara: creare un ecosistema completo per permettere a chiunque di avere successo, concentrandosi esclusivamente sulla gioia del giardinaggio.
+                La storia di Versia Garden inizia con la passione della nostra fondatrice, la botanica Helena Viana, per il potere trasformativo dei fiori. Ha visto che migliaia di persone sognavano di coltivare fioriture rare ed esotiche ma erano trattenute da una sola cosa: non sapere da dove iniziare. Semi a caso da fonti sconosciute. Nessuna guida. Nessun supporto. La sua missione è diventata chiara: creare un sistema di coltivazione completo che permetta a chiunque — indipendentemente dall&apos;esperienza — di far crescere qualcosa di straordinario dal seme.
               </p>
 
               <p>
-                Da quella missione è nato il movimento 'The Colour Awakening'. Oggi siamo più di un negozio; siamo partner per tutti coloro che desiderano essere agenti di trasformazione coltivando la bellezza nelle proprie case. Unisciti a noi, pianta un ibisco e guarda la tua storia di colore svolgersi.
+                Da quella missione è nato il movimento &apos;The Colour Awakening&apos;. Oggi siamo più di un negozio; siamo il Suo partner nel viaggio dal seme alla fioritura. Ogni elemento del nostro Kit di Coltivazione — dai semi pre-attivati al substrato esclusivo all&apos;app — esiste per rendere il Suo successo inevitabile. Si unisca a noi, pianti un seme e guardi la Sua storia di colore svolgersi.
               </p>
             </div>
 
