@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     name: "Linda T",
-    text: "I'm not a pro gardener, but these plants made me look like one! 🎉 The double petals are so unique. Love them!",
+    text: "I'm not a pro gardener, but this kit made me look like one! The double petals that grew from seed are so unique. Love them!",
   },
   {
     name: "Julian N",
@@ -30,7 +30,7 @@ const testimonials = [
   },
   {
     name: "Francesca I",
-    text: "Just received my plants. 🌺 Can't wait to see these beauties in my garden. My neighbors are gonna be so jealous!",
+    text: "Just planted my kit. Seeds sprouted in under a week — exactly as promised. Can't wait to see these beauties bloom. My neighbours are going to be so jealous!",
   },
   {
     name: "Daniel G",
@@ -46,7 +46,7 @@ const testimonials = [
   },
   {
     name: "Claudia O",
-    text: "This is my third purchase, and there's a reason I keep coming back. The plants are consistently high-quality and the growth rate is the best I've found. Highly recommend.",
+    text: "This is my third growing kit, and there's a reason I keep coming back. The seeds germinate consistently, the substrate does exactly what it says, and the app is genuinely helpful. Highly recommend.",
   },
   {
     name: "Valérie G",

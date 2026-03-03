@@ -8,16 +8,16 @@ export function GerminationSection() {
           {/* Text Content - Shows first on mobile, left on desktop */}
           <div className="md:w-1/2 md:order-1">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-              OUR EXPERT CARE GUARANTEES YOUR PLANTS WILL THRIVE
+              PRE-ACTIVATED SEEDS: LIFE IS ALREADY WAITING INSIDE
             </h2>
 
             <div className="space-y-4 text-base md:text-lg text-gray-700 leading-relaxed">
               <p>
-                Each of our young plants is nurtured by expert growers to develop a robust root system, making it strong and resilient. 
+                Most hibiscus seeds sit dormant for weeks before they even begin to wake up. Ours don&apos;t. We carefully prepare each seed to remove the dormancy barrier, so the moment it touches the substrate, germination begins immediately.
               </p>
 
               <p>
-                We ship them directly from our nursery to you in custom-designed, secure packaging. This ensures your plant arrives healthy and ready to flourish, skipping the fragile and uncertain sprouting stage entirely.
+                Combined with our exclusive hibiscus germination substrate and the Versia Bloom Accelerator fertilizer, your seeds have everything they need to sprout in 7 days or less. And with the Versia Garden App guiding you through every step with video lessons, you&apos;ll know exactly what to do — and when to do it — from seed to spectacular bloom.
               </p>
             </div>
           </div>

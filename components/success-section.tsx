@@ -22,10 +22,10 @@ export function SuccessSection() {
           {/* Content */}
           <div className="order-2 text-white">
             <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 text-balance">
-              A Perfect Start for Your Rare Hibiscus
+              Everything Between You and a Stunning Hibiscus Garden — Solved.
             </h2>
             <p className="text-base lg:text-lg leading-relaxed">
-              Skip the hardest part of growing. Our kit provides you with healthy, established young plants, giving you a huge head start. We include a complete Planting & Care Guide to ensure your success from day one.
+              Growing from seed used to mean uncertainty, guesswork, and disappointment. Not anymore. Our Growing Kit replaces all of that with a proven system: pre-activated seeds that sprout in 7 days, an exclusive substrate formulated specifically for hibiscus, professional fertilizer and fungicide, and an app that guides you with video lessons at every stage. This isn&apos;t just seeds in a packet — it&apos;s your shortest path to a garden that makes people stop and stare.
             </p>
           </div>
         </div>
