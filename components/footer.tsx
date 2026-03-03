@@ -1,11 +1,12 @@
+import Link from "next/link"
+
 export function Footer() {
-  const quickLinks = [
-    { label: "Legal Notice", href: "https://www.beversia.com/policies/legal-notice" },
-    { label: "Contact Information", href: "https://www.beversia.com/policies/contact-information" },
-    { label: "Privacy Policy", href: "https://www.beversia.com/policies/privacy-policy" },
-    { label: "Refund Policy", href: "https://www.beversia.com/policies/refund-policy" },
-    { label: "Shipping Policy", href: "https://www.beversia.com/policies/shipping-policy" },
-    { label: "Terms of Service", href: "https://www.beversia.com/policies/terms-of-service" },
+  const policyLinks = [
+    { label: "Refund Policy", href: "/refund-policy" },
+    { label: "Shipping", href: "/shipping-policy" },
+    { label: "Privacy Policy", href: "/privacy-policy" },
+    { label: "Terms of Service", href: "/terms-of-service" },
+    { label: "Contact", href: "/contact" },
   ]
 
   const paymentMethods = [
@@ -23,18 +24,17 @@ export function Footer() {
   return (
     <footer className="bg-primary text-white">
       <div className="container mx-auto px-4 py-12">
-        {/* Quick Links Section */}
+        {/* Policy Links Section */}
         <div className="mb-8">
-          <h3 className="text-xl font-bold mb-6 text-center md:text-center">Quick links</h3>
           <nav className="flex flex-col md:flex-row md:flex-wrap md:justify-center gap-4 md:gap-x-8 md:gap-y-3">
-            {quickLinks.map((link) => (
-              <a
+            {policyLinks.map((link) => (
+              <Link
                 key={link.label}
                 href={link.href}
                 className="text-white hover:text-white/80 transition-colors text-sm md:text-base"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
         </div>
@@ -43,9 +43,9 @@ export function Footer() {
         <div className="border-t border-white/20 my-8" />
 
         {/* Bottom Section */}
-        <div className="flex flex-col md:flex-row md:items-center md:justify-end gap-6">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           {/* Payment Methods */}
-          <div className="flex flex-wrap gap-2 justify-start md:justify-end">
+          <div className="flex flex-wrap gap-2 justify-start md:justify-start">
             {paymentMethods.map((method) => (
               <div
                 key={method.name}
@@ -58,8 +58,19 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Copyright */}
-        <div className="mt-8 text-center text-sm text-white/70">© 2025, Versia Powered by Shrina</div>
+        {/* Company Info */}
+        <div className="mt-8 text-center space-y-1">
+          <p className="text-sm text-white/80">© 2026 Versia Garden. All rights reserved.</p>
+          <p className="text-xs text-white/60">
+            Operated by: 57.203.094 MARIA CLARA RODRIGUES LEITE | CNPJ: 57.203.094/0001-13
+          </p>
+          <p className="text-xs text-white/60">
+            Avenida Girassol, 29.156-572, Cariacica, ES, Brazil |{" "}
+            <a href="mailto:info@versiagarden.com" className="hover:text-white/80 transition-colors">
+              info@versiagarden.com
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   )

@@ -1018,22 +1018,22 @@ function CheckoutForm() {
 
               {/* Footer Links */}
               <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-primary justify-center">
-                <Link href="#" className="hover:underline">
-                  Politique de remboursement
+                <Link href="/fr/refund-policy" className="hover:underline">
+                  Politique de Remboursement
                 </Link>
-                <Link href="#" className="hover:underline">
+                <Link href="/fr/shipping-policy" className="hover:underline">
                   Livraison
                 </Link>
-                <Link href="#" className="hover:underline">
-                  {"Politique de confidentialit\u00e9"}
+                <Link href="/fr/privacy-policy" className="hover:underline">
+                  {"Politique de Confidentialité"}
                 </Link>
-                <Link href="#" className="hover:underline">
-                  Conditions de service
+                <Link href="/fr/terms-of-service" className="hover:underline">
+                  CGV
                 </Link>
-                <Link href="#" className="hover:underline">
-                  {"Mentions l\u00e9gales"}
+                <Link href="/fr/mentions-legales" className="hover:underline">
+                  {"Mentions Légales"}
                 </Link>
-                <Link href="#" className="hover:underline">
+                <Link href="/fr/contact" className="hover:underline">
                   Contact
                 </Link>
               </div>

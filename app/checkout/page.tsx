@@ -1033,22 +1033,19 @@ All transactions are secure and encrypted. Your order is protected by our 30-day
 
               {/* Footer Links */}
               <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-primary justify-center">
-                <Link href="#" className="hover:underline">
-                  Refund policy
+                <Link href="/refund-policy" className="hover:underline">
+                  Refund Policy
                 </Link>
-                <Link href="#" className="hover:underline">
+                <Link href="/shipping-policy" className="hover:underline">
                   Shipping
                 </Link>
-                <Link href="#" className="hover:underline">
-                  Privacy policy
+                <Link href="/privacy-policy" className="hover:underline">
+                  Privacy Policy
                 </Link>
-                <Link href="#" className="hover:underline">
-                  Terms of service
+                <Link href="/terms-of-service" className="hover:underline">
+                  Terms of Service
                 </Link>
-                <Link href="#" className="hover:underline">
-                  Legal notice
-                </Link>
-                <Link href="#" className="hover:underline">
+                <Link href="/contact" className="hover:underline">
                   Contact
                 </Link>
               </div>

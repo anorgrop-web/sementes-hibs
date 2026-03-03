@@ -2,11 +2,11 @@ import Link from "next/link"
 
 export function Footer() {
   const policyLinks = [
-    { label: "Política de Reembolso", href: "/es/refund-policy" },
-    { label: "Envío", href: "/es/shipping-policy" },
-    { label: "Política de Privacidad", href: "/es/privacy-policy" },
-    { label: "Términos y Condiciones", href: "/es/terms-of-service" },
-    { label: "Contacto", href: "/es/contact" },
+    { label: "Política de Reembolso", href: "/pt/refund-policy" },
+    { label: "Envio", href: "/pt/shipping-policy" },
+    { label: "Política de Privacidade", href: "/pt/privacy-policy" },
+    { label: "Termos de Serviço", href: "/pt/terms-of-service" },
+    { label: "Contacto", href: "/pt/contact" },
   ]
 
   const paymentMethods = [
@@ -57,7 +57,7 @@ export function Footer() {
 
         {/* Company Info */}
         <div className="text-center space-y-1">
-          <p className="text-sm text-white/80">© 2026 Versia Garden. Todos los derechos reservados.</p>
+          <p className="text-sm text-white/80">© 2026 Versia Garden. Todos os direitos reservados.</p>
           <p className="text-xs text-white/60">
             Operado por: 57.203.094 MARIA CLARA RODRIGUES LEITE | CNPJ: 57.203.094/0001-13
           </p>
