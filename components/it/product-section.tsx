@@ -53,18 +53,18 @@ export function ProductSection() {
   const { addItem } = useCart()
 
   const kits = [
-    { id: "20-seeds", label: "OFFERTA SPECIALE - Kit 4 Piantine (Giallo, Viola, Rosso e Rosa)", price: 19.87, originalPrice: 39.74 },
-    { id: "75-seeds", label: "Ibisco Rosso - Confezione da 4 Piantine", price: 24.87, originalPrice: 49.74 },
-    { id: "50-seeds", label: "Ibisco Giallo - Confezione da 4 Piantine", price: 24.87, originalPrice: 49.74 },
+    { id: "20-seeds", label: "OFFERTA SPECIALE — Kit Coltivazione 4 Colori (Giallo, Viola, Rosso e Rosa)", price: 19.87, originalPrice: 39.74 },
+    { id: "75-seeds", label: "Kit Coltivazione Ibisco Rosso — Confezione da 4", price: 24.87, originalPrice: 49.74 },
+    { id: "50-seeds", label: "Kit Coltivazione Ibisco Giallo — Confezione da 4", price: 24.87, originalPrice: 49.74 },
     {
       id: "silver-kit",
-      label: "Ibisco Rosa - Confezione da 4 Piantine",
+      label: "Kit Coltivazione Ibisco Rosa — Confezione da 4",
       price: 24.87,
       originalPrice: 49.74,
     },
     {
       id: "gold-kit",
-      label: "Ibisco Viola - Confezione da 4 Piantine",
+      label: "Kit Coltivazione Ibisco Viola — Confezione da 4",
       price: 24.87,
       originalPrice: 49.74,
     },
@@ -93,7 +93,7 @@ export function ProductSection() {
     if (kit) {
       const cartItem = {
         id: `${selectedColor}-${selectedKit}`,
-        name: "Kit Ibisco Rari | Multicolore",
+        name: "Kit Coltivazione Ibisco | Multicolore",
         color: selectedColor,
         kit: selectedKit,
         kitLabel: kit.label,
@@ -307,25 +307,25 @@ export function ProductSection() {
 
           <div className="space-y-6">
             <h1 className="text-2xl lg:text-3xl font-bold text-balance leading-tight">
-              Collezione Esclusiva Ibisco Raro | Multicolore
+              Kit Coltivazione Ibisco — Sistema Completo dal Seme alla Fioritura | Multicolore
             </h1>
 
             <div className="flex flex-nowrap gap-2 sm:gap-6 lg:gap-8 justify-center mx-1 sm:mx-10">
               <div className="flex flex-col items-center gap-2">
                 <Heart className="w-8 h-8 text-gray-700" />
-                <span className="text-xs font-semibold text-center">Colori Vibranti</span>
+                <span className="text-xs font-semibold text-center">4 Colori Vibranti</span>
               </div>
               <div className="flex flex-col items-center gap-2">
                 <Shield className="w-8 h-8 text-gray-700" />
                 <span className="text-xs font-semibold text-center">
-                  Attecchimento
+                  Germinazione
                   <br />
-                  Garantito
+                  Garantita in 7 Giorni
                 </span>
               </div>
               <div className="flex flex-col items-center gap-2">
                 <Truck className="w-8 h-8 text-gray-700" />
-                <span className="text-xs font-semibold text-center">Spedizione Protetta</span>
+                <span className="text-xs font-semibold text-center">Spedizione Gratuita Tracciata</span>
               </div>
             </div>
 
@@ -342,22 +342,22 @@ export function ProductSection() {
               <div className="flex gap-3">
                 <Check className="w-5 h-5 text-gray-700 flex-shrink-0 mt-0.5" />
                 <p className="text-base">
-                  <strong>Successo Garantito:</strong> Le tue giovani piante arriveranno sane e hanno la garanzia di crescere rigogliose, oppure ti rimborsiamo.
+                  <strong>Germoglia in 7 Giorni — Garantito:</strong> I nostri semi pre-attivati non hanno periodo di dormienza. Basta piantare, innaffiare e guardare la vita emergere entro una settimana.
                 </p>
               </div>
               <div className="flex gap-3">
                 <Check className="w-5 h-5 text-gray-700 flex-shrink-0 mt-0.5" />
                 <p className="text-base">
-                  Ricevi un kit GRATUITO di fertilizzante e fungicida per nutrire e proteggere le tue nuove piante.
+                  <strong>Sistema Completo — Nient&apos;altro da Comprare:</strong> Semi, substrato esclusivo per la germinazione, fertilizzante acceleratore di fioritura e fungicida protettivo — tutto selezionato professionalmente per funzionare insieme.
                 </p>
               </div>
               <div className="flex gap-3">
                 <Check className="w-5 h-5 text-gray-700 flex-shrink-0 mt-0.5" />
-                <p className="text-base">Inizia in Anticipo: Goditi piante sane e verdi dal momento del loro arrivo.</p>
+                <p className="text-base"><strong>Il Suo Botanico Personale in Tasca:</strong> L&apos;App Versia Garden La guida con video-lezioni passo-passo dal seme alla fioritura spettacolare. Letteralmente non può fallire.</p>
               </div>
               <div className="flex gap-3">
                 <Check className="w-5 h-5 text-gray-700 flex-shrink-0 mt-0.5" />
-                <p className="text-base">Goditi un Giardino Pieno di Fiori Vibranti e Bellissimi.</p>
+                <p className="text-base"><strong>Coltivi un Giardino che Lascia Tutti a Bocca Aperta:</strong> Ibisco raro a petali doppi in colori così vividi che i Suoi vicini Le chiederanno dove li ha trovati.</p>
               </div>
             </div>
 
@@ -421,7 +421,7 @@ export function ProductSection() {
               className="w-full h-14 text-base font-bold rounded-md"
               style={{ backgroundColor: "#2d5f4f", color: "white" }}
             >
-              AGGIUNGI AL CARRELLO
+              INIZIA A COLTIVARE — AGGIUNGI AL CARRELLO
             </Button>
 
             <div className="pt-6 pb-4">
@@ -448,7 +448,7 @@ export function ProductSection() {
                   </div>
                   <div className="mt-3 text-center">
                     <p className="text-sm font-bold">{formatDateRange(getLondonDate(1), getLondonDate(2))}</p>
-                    <p className="text-xs text-gray-600">Ordine Pronto</p>
+                    <p className="text-xs text-gray-600">Spedito</p>
                   </div>
                 </div>
 
@@ -488,7 +488,7 @@ export function ProductSection() {
           <div className="flex items-center justify-between gap-4">
             <div className="flex-1 min-w-0">
               <h3 className="text-sm font-semibold truncate">
-                Collezione Esclusiva Ibisco Raro | Multicolore
+                Kit Coltivazione Ibisco — Sistema Completo dal Seme alla Fioritura | Multicolore
               </h3>
               <div className="flex items-center gap-2 mt-1">
                 <span className="text-lg font-bold">€{getCurrentPrice().toFixed(2).replace(".", ",")}</span>
@@ -502,7 +502,7 @@ export function ProductSection() {
               className="h-12 px-6 text-sm font-bold rounded-md whitespace-nowrap"
               style={{ backgroundColor: "#2d5f4f", color: "white" }}
             >
-              Scegli il Mio Kit
+              INIZIA A COLTIVARE
             </Button>
           </div>
         </div>

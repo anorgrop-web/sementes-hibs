@@ -2,11 +2,11 @@
 
 export function ScrollingMarquee() {
   const messages = [
-    "Guaranteed to Thrive",
-    "Secure Payment & Fast, Tracked Shipping",
-    "🌸 Spring starts March 20th — Plant now, bloom all season long | Free shipping on all kits 🌸",
-    "Guaranteed to Thrive",
-    "Secure Payment & Fast, Tracked Shipping",
+    "🌱 Seeds Sprout in 7 Days — Guaranteed",
+    "Secure Payment & Free Tracked Shipping on All Kits",
+    "🌺 Everything You Need From Seed to Spectacular Bloom — Nothing Else to Buy",
+    "🌱 Seeds Sprout in 7 Days — Guaranteed",
+    "Secure Payment & Free Tracked Shipping on All Kits",
   ]
 
   return (

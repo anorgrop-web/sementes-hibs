@@ -14,37 +14,40 @@ export function FaqSection() {
         </h2>
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
-            <AccordionTrigger>What is the size of the young plants?</AccordionTrigger>
+            <AccordionTrigger>How quickly will the seeds sprout?</AccordionTrigger>
             <AccordionContent>
-              Our plants are shipped at a robust size of{" "}
-              <strong>4-6 inches (10-15cm)</strong>, with a well-established
-              root system ready for quick growth upon arrival.
+              Our seeds are pre-activated — they arrive with no dormancy period. When planted in the included exclusive substrate and kept in the right conditions, you should see the first sprouts breaking through within{" "}
+              <strong>7 days</strong>. The Versia Garden App will guide you through optimal conditions for the fastest germination.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>Is it a perennial plant?</AccordionTrigger>
+            <AccordionTrigger>Do I need any gardening experience?</AccordionTrigger>
             <AccordionContent>
-              Yes, these are perennial plants. They typically provide a spectacular
-              bloom from{" "}
-              <strong>late spring through summer and well into fall</strong>. In
-              warmer climates, they can bloom nearly year-round.
+              None at all. The Growing Kit includes everything you need, and the Versia Garden App provides step-by-step video lessons that cover the entire journey — from planting your seeds to enjoying your first spectacular bloom. Think of it as having a personal botanist in your pocket.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger>Can I plant them in Fall or Winter?</AccordionTrigger>
+            <AccordionTrigger>What if my seeds don&apos;t germinate?</AccordionTrigger>
             <AccordionContent>
-              They can be planted year-round. In colder months, we
-              recommend starting them in pots indoors or in a greenhouse near a
-              sunny window, moving them outside once the risk of frost has passed.
+              We guarantee at least <strong>80% germination within 21 days</strong> when using the included substrate and following the app instructions. If your results fall below this, we&apos;ll send you replacement seeds at no cost. Your success matters more to us than anything.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
-            <AccordionTrigger>Do they require a lot of maintenance?</AccordionTrigger>
+            <AccordionTrigger>How long until I see the first flowers?</AccordionTrigger>
             <AccordionContent>
-              Not at all. These are low-maintenance plants that thrive easily. Key
-              care tips: Ensure they get <strong>4-6 hours of direct sunlight</strong>{" "}
-              daily, keep the soil consistently moist (but not waterlogged), and use
-              a balanced fertilizer during the blooming season.
+              Hibiscus typically begin to bloom within <strong>4 to 6 months</strong> from germination, depending on conditions. The included Versia Bloom Accelerator fertilizer is specifically formulated to promote faster, more abundant flowering. The app tracks your progress and lets you know what to expect at every stage.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-5">
+            <AccordionTrigger>Can I start the kit indoors?</AccordionTrigger>
+            <AccordionContent>
+              Absolutely. In fact, starting indoors is ideal. The seeds and substrate work perfectly on a sunny windowsill, sunroom, or any bright spot. Once your plants are established and the weather is warm enough, you can transplant them outdoors. The app will tell you exactly when and how.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-6">
+            <AccordionTrigger>Is the hibiscus a perennial plant?</AccordionTrigger>
+            <AccordionContent>
+              Yes. Once established, hibiscus is a perennial that blooms spectacularly from <strong>late spring through fall</strong>. In warmer climates (USDA Zones 9–11), it can bloom nearly year-round. In cooler zones, simply bring your potted plant indoors before the first frost.
             </AccordionContent>
           </AccordionItem>
         </Accordion>

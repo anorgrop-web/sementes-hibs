@@ -3,24 +3,24 @@ import { Flower2 } from "lucide-react"
 export function FeaturesSection() {
   const features = [
     {
-      title: "Pronti a Fiorire per la Primavera",
+      title: "Germoglia in 7 Giorni, Non Mesi",
       description:
-        "Pianta ora e goditi i primi fiori in poche settimane — perfettamente in tempo per la nuova stagione.",
+        "I nostri semi arrivano pre-attivati — nessun periodo di dormienza, nessuna attesa. Li pianti nel substrato esclusivo e vedrà i primi germogli verdi spuntare entro una settimana.",
     },
     {
-      title: "Colore Che Dura Tutta la Stagione",
+      title: "Un Sistema Completo che Pensa per Lei",
       description:
-        "Dai primi giorni caldi fino all'inizio dell'autunno, il tuo ibisco continuerà a fiorire senza sosta.",
+        "Substrato, fertilizzante, fungicida, semi e app — ogni elemento è scelto per funzionare insieme. Nessun dubbio, nessun viaggio extra al vivaio, nessuna ricerca su YouTube.",
     },
     {
-      title: "Cresce Ovunque",
+      title: "Guardi l'Intero Viaggio Svolgersi",
       description:
-        "Vasi, aiuole, balconi o vialetti — queste piante si adattano a qualsiasi spazio tu abbia.",
+        "Dal primo piccolo germoglio alla prima fioritura spettacolare — non c'è nulla di paragonabile al sapere di averlo coltivato con le proprie mani. Questo è il giardinaggio nella sua forma più gratificante.",
     },
     {
-      title: "Dà Vita al Tuo Giardino",
+      title: "Colori che Illuminano Qualsiasi Spazio",
       description:
-        "I petali vibranti attirano farfalle e impollinatori, trasformando il tuo spazio esterno in uno spettacolo vivente.",
+        "Ibisco raro a petali doppi in rossi vividi, rosa, viola e gialli. Che sia un balcone, un terrazzo o un giardino intero — questi fiori diventano il protagonista assoluto.",
     },
   ]
 
@@ -45,17 +45,16 @@ export function FeaturesSection() {
           </div>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 text-balance">
-            Il Giardino Primaverile Perfetto Inizia Con Quello Che Pianti Oggi.
+            Da un Piccolo Seme a un Giardino che Toglie il Fiato — Nelle Sue Mani, Secondo i Suoi Tempi.
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-4xl mx-auto text-pretty">
-            Mentre gli altri aspettano la primavera, i giardinieri furbi stanno già piantando. Metti il tuo Kit di{" "}
-            <span className="font-semibold text-foreground">Ibisco Doppio</span> nel terreno ora e guardali esplodere in fioriture vibranti e stratificate proprio quando arrivano le giornate calde — la finestra perfetta per iniziare si sta chiudendo.
+            La maggior parte delle persone pensa che coltivare ibisco raro dal seme sia difficile. Non lo è — quando si ha il sistema giusto. Il nostro Kit di Coltivazione Le offre semi pre-attivati che germogliano in 7 giorni, un substrato esclusivo, fertilizzante di grado professionale e un&apos;app con video-lezioni che La accompagna in ogni fase. Non serve esperienza. Non serve fortuna. Basta aprire la scatola.
           </p>
         </div>
 
         {/* Features Section */}
         <div>
-          <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12">Caratteristiche che Amerai</h3>
+          <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12">Perché i Coltivatori Amano Questo Kit</h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-x-12 md:gap-y-10 max-w-5xl mx-auto">
             {features.map((feature, index) => (

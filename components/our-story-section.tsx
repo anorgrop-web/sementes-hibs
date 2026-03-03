@@ -25,17 +25,11 @@ export function OurStorySection() {
 
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                Versia Garden's story begins with the passion of our founder, botanist Helena Viana, for the power of
-                flowers to turn the ordinary into the extraordinary. She saw that thousands of people shared this dream
-                but were held back by the frustration of inaccessible and difficult-to-grow rare plants. Her mission
-                became clear: to create a complete ecosystem to empower anyone to succeed, focusing solely on the joy of
-                gardening.
+                Versia Garden&apos;s story begins with the passion of our founder, botanist Helena Viana, for the transformative power of flowers. She saw that thousands of people dreamed of growing rare, exotic blooms but were held back by one thing: not knowing where to start. Random seeds from unknown sources. No guidance. No support. Her mission became clear: create a complete growing system that empowers anyone — regardless of experience — to grow something extraordinary from seed.
               </p>
 
               <p>
-                From that mission, 'The Colour Awakening' movement was born. Today, we are more than a store; we are
-                partners for everyone who wishes to be an agent of transformation by cultivating beauty in their own
-                homes. Join us, plant a hibiscus, and watch your own story of colour unfold.
+                From that mission, &apos;The Colour Awakening&apos; movement was born. Today, we are more than a store; we are your partner in the journey from seed to bloom. Every element of our Growing Kit — from the pre-activated seeds to the exclusive substrate to the app — exists to make your success inevitable. Join us, plant a seed, and watch your own story of colour unfold.
               </p>
             </div>
 

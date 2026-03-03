@@ -2,13 +2,14 @@ import { Check, X } from 'lucide-react'
 
 export function ComparisonSection() {
   const features = [
-    "Professionally Nurtured Young Plants non GMO",
-    "Healthy Arrival & Growth Guarantee",
-    "Complete Kit with Guide & Guarantee",
+    "Pre-Activated Seeds — Sprout in 7 Days",
+    "Exclusive Hibiscus Germination Substrate Included",
+    "Professional Bloom Accelerator Fertilizer Included",
+    "Protective Fungicide for Healthy Growth",
+    "Step-by-Step Video App — Seed to Bloom",
+    "Germination Guarantee (80%+ in 21 Days)",
     "24/7 Customer Support",
-    "100% Secure Payment With SSL Encryption",
-    "Germination Guide with step-by-step Instructions",
-    "Planting & Care Guide with step-by-step Instructions",
+    "100% Secure Payment with SSL Encryption",
   ]
 
   return (
@@ -17,9 +18,9 @@ export function ComparisonSection() {
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 lg:gap-12">
           <div className="lg:max-w-md">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">
-              {"Why choose Versia Garden's Hibiscus Young Plant Kit?"}
+              Why Choose the Growing Hibiscus Kit by Versia Garden?
             </h2>
-            <p className="text-muted-foreground">See why our kits deliver superior results.</p>
+            <p className="text-muted-foreground">See why our complete system delivers results that loose seeds never could.</p>
           </div>
 
           <div className="flex-1 lg:max-w-xl">

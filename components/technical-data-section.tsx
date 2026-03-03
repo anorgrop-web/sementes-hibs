@@ -4,10 +4,9 @@ export function TechnicalDataSection() {
       <div className="max-w-4xl mx-auto space-y-8">
         {/* Technical Data Sheet Card */}
         <div className="bg-white rounded-lg p-8 shadow-sm">
-          <h2 className="text-3xl font-bold text-[#3d6f5f] mb-4">Technical Data Sheet: Rare Hibiscus Varieties.</h2>
+          <h2 className="text-3xl font-bold text-[#3d6f5f] mb-4">Technical Data Sheet: Growing Hibiscus Kit</h2>
           <p className="text-gray-700 mb-8">
-            For your maximum cultivation success, we've prepared a complete guide with all the information you need to
-            know about these spectacular flowers.
+            Everything you need to know about your Growing Kit and the rare Hibiscus varieties inside.
           </p>
 
           <div className="space-y-0 border border-gray-200 rounded-lg overflow-hidden">
@@ -31,15 +30,39 @@ export function TechnicalDataSection() {
             <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
               <div className="p-4 font-semibold bg-gray-50">Origin</div>
               <div className="p-4 md:col-span-2">
-                <span className="text-blue-600">Asia & Pacific Islands</span>
+                <span className="text-blue-600">Asia &amp; Pacific Islands</span>
+              </div>
+            </div>
+
+            {/* Seed Type */}
+            <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
+              <div className="p-4 font-semibold bg-gray-50">Seed Type</div>
+              <div className="p-4 md:col-span-2">
+                Pre-Activated (no dormancy — immediate germination)
+              </div>
+            </div>
+
+            {/* Germination Time */}
+            <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
+              <div className="p-4 font-semibold bg-gray-50">Germination Time</div>
+              <div className="p-4 md:col-span-2">
+                <span className="text-green-700 font-semibold">5–7 days</span> in optimal conditions
+              </div>
+            </div>
+
+            {/* Kit Contents */}
+            <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
+              <div className="p-4 font-semibold bg-gray-50">Kit Contents</div>
+              <div className="p-4 md:col-span-2">
+                Pre-activated seeds, exclusive germination substrate, bloom accelerator fertilizer, protective fungicide, app access with video lessons
               </div>
             </div>
 
             {/* Flower Colors */}
             <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
-              <div className="p-4 font-semibold bg-gray-50">Flower Colors</div>
+              <div className="p-4 font-semibold bg-gray-50">Flower Colours</div>
               <div className="p-4 md:col-span-2">
-                Our kits contain healthy young plants of rare varieties with exotic and vibrant color combinations.
+                Rare varieties with exotic and vibrant colour combinations (Red, Yellow, Pink, Purple, Mixed)
               </div>
             </div>
 
@@ -47,7 +70,7 @@ export function TechnicalDataSection() {
             <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
               <div className="p-4 font-semibold bg-gray-50">Ideal Planting Season</div>
               <div className="p-4 md:col-span-2">
-                <span className="text-blue-600">All year round.</span>
+                <span className="text-blue-600">All year round.</span> Start indoors in cooler months.
               </div>
             </div>
 
@@ -55,7 +78,7 @@ export function TechnicalDataSection() {
             <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
               <div className="p-4 font-semibold bg-gray-50">Flowering Season</div>
               <div className="p-4 md:col-span-2">
-                <span className="text-red-600">Mainly in Summer & Autumn.</span> In warm climates, can bloom year-round.
+                <span className="text-red-600">Mainly Summer &amp; Autumn.</span> In warm climates, can bloom year-round.
               </div>
             </div>
 
@@ -63,8 +86,7 @@ export function TechnicalDataSection() {
             <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
               <div className="p-4 font-semibold bg-gray-50">Light Requirements</div>
               <div className="p-4 md:col-span-2">
-                <span className="text-blue-600">Full Spectrum.</span> Requires 4-6 hours of direct sun or equivalent
-                artificial light daily.
+                <span className="text-blue-600">Full Spectrum.</span> 4–6 hours of direct sun or equivalent artificial light daily.
               </div>
             </div>
 
@@ -78,7 +100,7 @@ export function TechnicalDataSection() {
             <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
               <div className="p-4 font-semibold bg-gray-50">Soil Type</div>
               <div className="p-4 md:col-span-2">
-                Fertile, well-draining, and rich in organic matter. Slightly acidic (pH 6.5-6.8).
+                Exclusive hibiscus substrate included. Fertile, well-draining, slightly acidic (pH 6.5–6.8).
               </div>
             </div>
 
@@ -86,7 +108,7 @@ export function TechnicalDataSection() {
             <div className="grid grid-cols-1 md:grid-cols-3 border-b border-gray-200">
               <div className="p-4 font-semibold bg-gray-50">Plant Height</div>
               <div className="p-4 md:col-span-2">
-                From 0.5 to 2 meters (1.64-6.5 ft), depending on the variety and pruning.
+                From 0.5 to 2 metres, depending on variety and pruning.
               </div>
             </div>
 

@@ -6,51 +6,51 @@ import { useState } from "react"
 const testimonials = [
   {
     name: "Jason R",
-    text: "Seriamente, questi ibischi doppi sono dei veri protagonisti. ⭐ Ricevo complimenti ogni volta che gli amici vengono a trovarmi. Ne vale ogni centesimo!",
+    text: "Questo kit è incredibile. ⭐ I semi sono germogliati in meno di una settimana e l'app mi ha detto esattamente cosa fare ad ogni passo. Gli amici non credono che li ho coltivati dal seme!",
   },
   {
     name: "Willian M",
-    text: "Facile da piantare e i risultati sono fantastici! 🌱 Hanno trasformato il mio noioso cortile in un'oasi vibrante.",
+    text: "L'esperienza di giardinaggio più semplice che abbia mai avuto! 🌱 Il combo substrato e fertilizzante è eccezionale — tutto è germogliato. Il mio giardino è fantastico ora.",
   },
   {
     name: "Linda T",
-    text: "Non sono un giardiniere professionista, ma queste piantine mi hanno fatto sembrare uno! 🎉 I petali doppi sono così unici. Li adoro!",
+    text: "Non sono un'esperta, ma questo kit mi ha fatto sentire tale! 🎉 Le video-lezioni nell'app sono brillanti. Sto già pianificando il secondo ordine.",
   },
   {
     name: "Julian N",
-    text: "Ho preso una chance con queste piante rare e sono entusiasta. 🌺 Hanno aggiunto un tocco di magia al mio balcone. Ne ordinerò altri!",
+    text: "Ho provato a coltivare dal seme e sono entusiasta. 🌺 I semi pre-attivati sono la vera svolta — germogliati in 6 giorni. Il mio balcone è trasformato.",
   },
   {
     name: "Nicolas V",
-    text: "Queste piante sono la vera cosa! 🌈 I colori sono così vividi. Il mio giardino ora è il mio posto preferito per rilassarmi.",
+    text: "Questo kit è la cosa reale! 🌈 Dal seme al germoglio in meno di una settimana. I colori sono così vividi. Il mio giardino ora è il mio posto preferito per rilassarmi.",
   },
   {
-    name: "Nathalie p",
-    text: "🌸 Queste piante rare sono un game-changer! Le ho piantate nel mio cortile e ora è un paradiso fiorito. Così facili da coltivare—anche io non ho fatto pasticci!",
+    name: "Nathalie P",
+    text: "🌸 Una rivoluzione totale! L'app ti guida in tutto. Non ho mai coltivato nulla in vita mia e ora ho ibischi che fioriscono in giardino. Davvero impressionante.",
   },
   {
     name: "Francesca I",
-    text: "Appena ricevuto le mie piantine. 🌺 Non vedo l'ora di vedere queste bellezze nel mio giardino. I miei vicini saranno così gelosi!",
+    text: "Ho appena ricevuto il kit e ho piantato tutto. 🌺 Già vedo germogli al giorno 5! Non vedo l'ora di vedere i primi fiori. I miei vicini saranno gelosissimi.",
   },
   {
     name: "Daniel G",
-    text: "Wow! I fiori doppi sono stupendi. 🌋 Hanno aggiunto così tanto colore al mio patio. Miglior acquisto di giardinaggio dell'anno!",
+    text: "L'approccio del sistema completo è geniale. 🌋 Substrato, fertilizzante, fungicida, app — tutto funziona insieme. Miglior acquisto di giardinaggio che abbia mai fatto.",
   },
   {
     name: "Laura F",
-    text: "Li ho comprati per capriccio e ne sono ossessionata. 😍 Guardarli crescere è stato così terapeutico. Perfetti per il mio davanzale soleggiato",
+    text: "Comprato d'impulso e ne sono ossessionata. 😍 Guardare la vita emergere da piccoli semi è magico. L'app lo rende infallibile.",
   },
   {
     name: "Andrea D",
-    text: "È la mia prima volta a piantare, sono molto felice di esserci riuscita!!",
+    text: "La mia prima volta a coltivare qualcosa dal seme — sono così felice che ha funzionato! L'app mi ha davvero tenuto per mano durante tutto il processo.",
   },
   {
     name: "Claudia O",
-    text: "Questo è il mio terzo acquisto e c'è una ragione per cui continuo a tornare. Le piante sono costantemente di alta qualità e il tasso di crescita è il migliore che ho trovato. Altamente raccomandato.",
+    text: "Terzo ordine da Versia e c'è una ragione per cui continuo a tornare. Il tasso di germinazione è incredibile e il supporto dell'app è impareggiabile. Altamente raccomandato.",
   },
   {
     name: "Valérie G",
-    text: "Piante fantastiche, fiori bellissimi. Già al mio terzo ordine da loro.",
+    text: "Kit fantastico, risultati bellissimi. Sto già ordinando altri come regali.",
   },
 ]
 

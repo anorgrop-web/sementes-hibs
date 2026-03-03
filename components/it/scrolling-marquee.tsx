@@ -2,11 +2,11 @@
 
 export function ScrollingMarquee() {
   const messages = [
-    "Garanzia di Crescita",
-    "Pagamento Sicuro e Spedizione Tracciata Veloce",
-    "La primavera inizia il 20 marzo — Pianta ora, fioritura tutta la stagione | Spedizione gratuita su tutti i kit",
-    "Garanzia di Crescita",
-    "Pagamento Sicuro e Spedizione Tracciata Veloce",
+    "🌱 I Semi Germogliano in 7 Giorni — Garantito",
+    "Pagamento Sicuro e Spedizione Gratuita Tracciata su Tutti i Kit",
+    "🌺 Tutto il Necessario dal Seme alla Fioritura Spettacolare — Nient'altro da Comprare",
+    "🌱 I Semi Germogliano in 7 Giorni — Garantito",
+    "Pagamento Sicuro e Spedizione Gratuita Tracciata su Tutti i Kit",
   ]
 
   return (

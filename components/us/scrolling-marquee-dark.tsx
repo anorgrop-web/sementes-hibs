@@ -1,7 +1,7 @@
 "use client"
 
 export function ScrollingMarqueeDark() {
-  const messages = ["Guaranteed to Thrive", "Secure payment", "Tracked shipping"]
+  const messages = ["Sprouts in 7 Days", "Complete Growing System", "Secure Payment", "Tracked Shipping"]
 
   const allMessages = [...messages, ...messages, ...messages, ...messages]
 

@@ -16,47 +16,47 @@ const reviews = [
   {
     id: 1,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/Gemini_Generated_Image_ltnw6mltnw6mltnw.png',
-    text: "The atmosphere feels more cheerful, with a tropical vibe, almost like a private holiday retreat. It's the first thing my friends comment on when they visit",
+    text: "I never thought I could grow hibiscus from seed — but this kit made it almost too easy. Saw the first sprouts in 5 days. Five days! Now I have a balcony full of colour that makes my neighbours jealous.",
   },
   {
     id: 2,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/Gemini_Generated_Image_4zk4nd4zk4nd4zk4.png',
-    text: "The exuberance of its flowers transports me far away from the noise and concrete.",
+    text: "The app is a game-changer. Every time I wasn't sure what to do next, there was a video waiting for me. It felt like having a gardening expert on speed dial.",
   },
   {
     id: 3,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/Gemini_Generated_Image_qczasfqczasfqcza.png',
-    text: "All my friends ask about it whenever I post a photo. It doesn't just brighten up my space, it brightens up my feed. It's beauty worth sharing.",
+    text: "All my friends ask about it whenever I post a photo. Growing these from seed makes it even more special — I tell everyone 'I grew that from a tiny seed' and they can't believe it.",
   },
   {
     id: 4,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/Gemini_Generated_Image_4tkvsy4tkvsy4tkv.png',
-    text: "Between work, family, and the daily rush, I rarely get a moment to myself. My little corner with the Hibiscus has become my sanctuary. Tending to it for five minutes, seeing the incredible color of the flowers—that's my meditation. It brings me a calm I can't find anywhere else. It's my daily luxury of tranquility.",
+    text: "Between work, kids, and life — I barely have time for anything. But checking on my seedlings every morning became my little ritual. Watching them grow from nothing to these incredible flowers... it's honestly therapeutic.",
   },
   {
     id: 5,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/Gemini_Generated_Image_u2en2du2en2du2en.png',
-    text: "The flowers are huge, vibrant, and last all day, changing their hue with the light. It's not just about having a beautiful plant; it's about having a daily ritual that connects you to something simple and perfect.",
+    text: "The flowers are huge, vibrant, and last all day. Knowing I grew them from a seed, with my own hands, using this kit — that feeling is priceless. It's not just gardening, it's creating something beautiful.",
   },
   {
     id: 6,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/image%20874.png',
-    text: "The results speak for themselves: an abundant and spectacular bloom. For anyone who takes gardening seriously, this is a safe bet.",
+    text: "I've bought seeds online before and had nothing but disappointment. This was completely different. The substrate, the fertilizer, the app — it all works together. 9 out of 10 seeds sprouted. Incredible.",
   },
   {
     id: 7,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/image%20877.png',
-    text: "We moved recently, and I was looking for 'that one' piece to make the house truly feel like home. I found it in this Hibiscus. With its burst of color, it brought the exact energy and personality our living room was missing.",
+    text: "We moved recently, and I wanted something to make the new garden feel like ours. Growing these hibiscus from seed did exactly that. Every bloom feels personal.",
   },
   {
     id: 8,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/image%20878.png',
-    text: "My husband gave me this Hibiscus seedling for our anniversary, and it's the most special gift I've ever received. Instead of flowers that die in a week, I got flowers that bloom every week! Every new bud that opens feels like a small celebration of our love and life. It's a gift that literally keeps on blooming.",
+    text: "My wife gave me this kit for my birthday. Best gift ever. We've been watching the progress together — from tiny sprouts to beautiful buds. It's become our thing.",
   },
   {
     id: 9,
     image: 'https://dxy4adpuoflk7uxq.public.blob.vercel-storage.com/Versia%20Garden/Kit%20hibiscus/image%20875.png',
-    text: "I've always appreciated design and aesthetics, and for me, the Hibiscus flower is a work of art by nature. The details are incredible: the delicate texture of the petals, the color gradient, the contrast of the pistil... it's a perfect structure.",
+    text: "I appreciate design and aesthetics, and the double-petal hibiscus is nature's masterpiece. Growing it yourself just makes it even more satisfying. The colour gradients are unreal.",
   },
 ]
 
@@ -82,7 +82,7 @@ export function CustomerReviewsSection() {
     <section className="py-16 px-4 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12">
-          Approved by our customers
+          From Seed to Stunning — Our Growers' Stories
         </h2>
         
         <div className="relative px-4 md:px-12">
