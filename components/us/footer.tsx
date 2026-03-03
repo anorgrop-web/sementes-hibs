@@ -1,8 +1,7 @@
 import Link from "next/link"
 
-export function FooterUS() {
-  return <Footer />
-}
+export { Footer as FooterUS }
+
 
 export function Footer() {
   const policyLinks = [
