@@ -4,18 +4,18 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 import { useState } from "react"
 
 const testimonials = [
-  { name: "Jason R", text: "Seriously, these double hibiscus are showstoppers. ⭐ I get compliments every time friends visit. Worth every penny!" },
-  { name: "Willian M", text: "Easy to plant, and the results are amazing! 🌱 They've transformed my boring front yard into a vibrant oasis." },
-  { name: "Linda T", text: "I'm not a pro gardener, but these plants made me look like one! 🎉 The double petals are so unique. Love them!" },
-  { name: "Julian N", text: "Took a chance on these rare plants, and I'm thrilled. 🌺 They've added a touch of magic to my patio. Ordering more!" },
-  { name: "Nicolas V", text: "These plants are the real deal! 🌈 The colors are so vivid. My garden is now my favorite place to relax." },
-  { name: "Nathalie P", text: "🌸 These rare plants are a game-changer! Planted them in my backyard, and now it's a blooming paradise. So easy to grow — even I didn't mess it up!" },
-  { name: "Francesca I", text: "Just received my plants. 🌺 Can't wait to see these beauties in my garden. My neighbors are gonna be so jealous!" },
-  { name: "Daniel G", text: "Wow! The double blooms are stunning. 🌋 They added so much color to my patio. Best gardening purchase this year!" },
-  { name: "Laura F", text: "Bought these on a whim, and I'm obsessed. 😍 Watching them grow has been so therapeutic. Perfect for my sunny window sill." },
-  { name: "Andrea D", text: "My first time planting, I am very happy that I succeeded!!" },
-  { name: "Claudia O", text: "This is my third purchase, and there's a reason I keep coming back. The plants are consistently high-quality and the growth rate is the best I've found. Highly recommend." },
-  { name: "Valerie G", text: "Fantastic plants, beautiful flowers. Already on my third order from them." },
+  { name: "Jason R", text: "This kit is unreal. ⭐ Seeds sprouted in under a week, and the app told me exactly what to do at every step. Friends can't believe I grew these from seed!" },
+  { name: "William M", text: "Easiest gardening experience I've ever had! 🌱 The substrate and fertilizer combo is legit — everything sprouted. My garden looks incredible now." },
+  { name: "Linda T", text: "I'm no expert, but this kit made me feel like one! 🎉 The video lessons in the app are brilliant. Already planning my second order." },
+  { name: "Julian N", text: "Took a chance on growing from seed and I'm thrilled. 🌺 The pre-activated seeds are the real deal — sprouted in 6 days. My patio is transformed." },
+  { name: "Nicolas V", text: "This kit is the real deal! 🌈 From seed to sprout in less than a week. The colors are so vivid. My garden is now my favorite place to relax." },
+  { name: "Nathalie P", text: "🌸 Complete game-changer! The app walks you through everything. I've never grown anything in my life and now I've got hibiscus blooming in my garden. Seriously impressed." },
+  { name: "Francesca I", text: "Just received my kit and planted everything. 🌺 Already seeing sprouts on day 5! Can't wait to see the first flowers. My neighbors are gonna be so jealous." },
+  { name: "Daniel G", text: "The complete system approach is genius. 🌋 Substrate, fertilizer, fungicide, app — it all works together. Best gardening purchase I've made." },
+  { name: "Laura F", text: "Bought on impulse and I'm obsessed. 😍 Watching life emerge from tiny seeds is magical. The app makes it foolproof." },
+  { name: "Andrea D", text: "My first time growing anything from seed — I'm so happy it worked! The app really held my hand through the whole process." },
+  { name: "Claudia O", text: "Third order from Versia and there's a reason I keep coming back. The germination rate is incredible and the app support is unmatched. Highly recommend." },
+  { name: "Valerie G", text: "Fantastic kit, beautiful results. Already ordering more for gifts." },
 ]
 
 export function TestimonialsSection() {

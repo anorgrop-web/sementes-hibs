@@ -23,11 +23,11 @@ export function OurStorySection() {
 
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                {"Versia Garden's story starts with our founder, botanist Helena Viana, and her passion for the power of flowers to turn the ordinary into the extraordinary. She saw that thousands of people shared this dream but were held back by the frustration of inaccessible, hard-to-grow rare plants. Her mission became clear: build a complete ecosystem to empower anyone to succeed, focusing purely on the joy of gardening."}
+                {"Versia Garden's story starts with our founder, botanist Helena Viana, and her passion for the transformative power of flowers. She saw that thousands of people dreamed of growing rare, exotic blooms but were held back by one thing: not knowing where to start. Random seeds from unknown sources. No guidance. No support. Her mission became clear: build a complete growing system that empowers anyone — regardless of experience — to grow something extraordinary from seed."}
               </p>
 
               <p>
-                {"From that mission, 'The Color Awakening' movement was born. Today, we're more than a store — we're partners for everyone who wants to be an agent of transformation by cultivating beauty in their own homes. Join us, plant a hibiscus, and watch your own story of color unfold."}
+                {"From that mission, 'The Color Awakening' movement was born. Today, we're more than a store — we're your partner in the journey from seed to bloom. Every element of our Growing Kit — from the pre-activated seeds to the exclusive substrate to the app — exists to make your success inevitable. Join us, plant a seed, and watch your own story of color unfold."}
               </p>
             </div>
 
