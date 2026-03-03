@@ -86,11 +86,11 @@ export function ProductSection() {
   const { addItem } = useCart()
 
   const kits = [
-    { id: "20-seeds", label: "Special Offer - 4-Color Hibiscus Plant Kit (Yellow, Purple, Red & Pink)", price: 19.90, originalPrice: 39.80 },
-    { id: "75-seeds", label: "Red Hibiscus - Pack of 4", price: 24.90, originalPrice: 49.80 },
-    { id: "50-seeds", label: "Yellow Hibiscus - Pack of 4", price: 24.90, originalPrice: 49.80 },
-    { id: "silver-kit", label: "Pink Hibiscus - Pack of 4", price: 24.90, originalPrice: 49.80 },
-    { id: "gold-kit", label: "Purple Hibiscus - Pack of 4", price: 24.90, originalPrice: 49.80 },
+    { id: "20-seeds", label: "Special Offer — 4-Color Growing Kit (Yellow, Purple, Red & Pink)", price: 19.90, originalPrice: 39.80 },
+    { id: "75-seeds", label: "Red Hibiscus Growing Kit — Pack of 4", price: 24.90, originalPrice: 49.80 },
+    { id: "50-seeds", label: "Yellow Hibiscus Growing Kit — Pack of 4", price: 24.90, originalPrice: 49.80 },
+    { id: "silver-kit", label: "Pink Hibiscus Growing Kit — Pack of 4", price: 24.90, originalPrice: 49.80 },
+    { id: "gold-kit", label: "Purple Hibiscus Growing Kit — Pack of 4", price: 24.90, originalPrice: 49.80 },
   ]
 
   const getCurrentPrice = () => {
@@ -120,7 +120,7 @@ export function ProductSection() {
     if (kit) {
       const cartItem = {
         id: `${selectedColor}-${selectedKit}`,
-        name: "Rare Hibiscus Flowers Kit | Multicolor",
+        name: "Growing Hibiscus Kit | Multicolor",
         color: selectedColor,
         kit: selectedKit,
         kitLabel: kit.label,
@@ -274,12 +274,12 @@ export function ProductSection() {
           </div>
 
           <div className="space-y-6">
-            <h1 className="text-2xl lg:text-3xl font-bold text-balance leading-tight">Rare Hibiscus Flowers Kit | Multicolor</h1>
+            <h1 className="text-2xl lg:text-3xl font-bold text-balance leading-tight">Growing Hibiscus Kit — Complete Seed-to-Bloom System | Multicolor</h1>
 
             <div className="flex flex-wrap gap-2 sm:gap-6 lg:gap-8 justify-center mx-1 sm:mx-10">
-              <div className="flex flex-col items-center gap-2"><Heart className="w-8 h-8 text-gray-700" /><span className="text-xs font-semibold text-center">Vibrant colors</span></div>
-              <div className="flex flex-col items-center gap-2"><Shield className="w-8 h-8 text-gray-700" /><span className="text-xs font-semibold text-center">Guaranteed<br />to<br />Thrive</span></div>
-              <div className="flex flex-col items-center gap-2"><Truck className="w-8 h-8 text-gray-700" /><span className="text-xs font-semibold text-center">Secure Delivery</span></div>
+              <div className="flex flex-col items-center gap-2"><Heart className="w-8 h-8 text-gray-700" /><span className="text-xs font-semibold text-center">4 Vibrant Colors</span></div>
+              <div className="flex flex-col items-center gap-2"><Shield className="w-8 h-8 text-gray-700" /><span className="text-xs font-semibold text-center">7-Day Sprouting<br />Guarantee</span></div>
+              <div className="flex flex-col items-center gap-2"><Truck className="w-8 h-8 text-gray-700" /><span className="text-xs font-semibold text-center">Free Tracked Delivery</span></div>
             </div>
 
             <div className="flex items-center gap-2">
@@ -288,10 +288,10 @@ export function ProductSection() {
             </div>
 
             <div className="space-y-3">
-              <div className="flex gap-3"><Check className="w-5 h-5 text-gray-700 flex-shrink-0 mt-0.5" /><p className="text-base"><strong>Guaranteed Success:</strong> Your young plants will arrive healthy and are guaranteed to thrive, or get your money back.</p></div>
-              <div className="flex gap-3"><Check className="w-5 h-5 text-gray-700 flex-shrink-0 mt-0.5" /><p className="text-base">Receive a FREE fertilizer and fungicide kit to nourish and protect your new plants.</p></div>
-              <div className="flex gap-3"><Check className="w-5 h-5 text-gray-700 flex-shrink-0 mt-0.5" /><p className="text-base">Get a Head Start: Enjoy healthy, green plants from the moment they arrive.</p></div>
-              <div className="flex gap-3"><Check className="w-5 h-5 text-gray-700 flex-shrink-0 mt-0.5" /><p className="text-base">Enjoy a Garden Filled With Vibrant & Beautiful Blooms.</p></div>
+              <div className="flex gap-3"><Check className="w-5 h-5 text-gray-700 flex-shrink-0 mt-0.5" /><p className="text-base"><strong>Sprouts in 7 Days — Guaranteed:</strong> Our pre-activated seeds have no dormancy period. Just plant, water, and watch life emerge within one week.</p></div>
+              <div className="flex gap-3"><Check className="w-5 h-5 text-gray-700 flex-shrink-0 mt-0.5" /><p className="text-base"><strong>Complete System — Nothing Else to Buy:</strong> Seeds, exclusive germination substrate, bloom accelerator fertilizer, and protective fungicide — everything professionally selected to work together.</p></div>
+              <div className="flex gap-3"><Check className="w-5 h-5 text-gray-700 flex-shrink-0 mt-0.5" /><p className="text-base"><strong>Your Personal Botanist in Your Pocket:</strong> The Versia Garden App guides you with step-by-step video lessons from seed to spectacular bloom. You literally cannot fail.</p></div>
+              <div className="flex gap-3"><Check className="w-5 h-5 text-gray-700 flex-shrink-0 mt-0.5" /><p className="text-base"><strong>Grow a Garden That Stops People in Their Tracks:</strong> Rare double-petal hibiscus in colors so vivid, your neighbors will ask where you got them.</p></div>
             </div>
 
             <div className="flex items-center gap-3">
@@ -318,7 +318,7 @@ export function ProductSection() {
               </div>
             </div>
 
-            <Button onClick={handleAddToCart} className="w-full h-14 text-base font-bold rounded-md" style={{ backgroundColor: "#2d5f4f", color: "white" }}>ADD TO CART</Button>
+            <Button onClick={handleAddToCart} className="w-full h-14 text-base font-bold rounded-md" style={{ backgroundColor: "#2d5f4f", color: "white" }}>START GROWING — ADD TO CART</Button>
 
             <div className="pt-6 pb-4">
               <div className="flex items-center justify-between max-w-md mx-auto">
@@ -334,7 +334,7 @@ export function ProductSection() {
                     <div className="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center"><Truck className="w-6 h-6 text-white" /></div>
                     <div className="absolute top-6 left-12 w-20 sm:w-24 h-0.5 bg-gray-900" />
                   </div>
-                  <div className="mt-3 text-center"><p className="text-sm font-bold">{formatDateRange(getUSDate(1), getUSDate(2))}</p><p className="text-xs text-gray-600">Order Ready</p></div>
+                  <div className="mt-3 text-center"><p className="text-sm font-bold">{formatDateRange(getUSDate(1), getUSDate(2))}</p><p className="text-xs text-gray-600">Dispatched</p></div>
                 </div>
                 <div className="flex flex-col items-center flex-1">
                   <div className="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center"><Package className="w-6 h-6 text-white" /></div>
@@ -354,13 +354,13 @@ export function ProductSection() {
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between gap-4">
             <div className="flex-1 min-w-0">
-              <h3 className="text-sm font-semibold truncate">Rare Hibiscus Flowers Kit | Multicolor</h3>
+              <h3 className="text-sm font-semibold truncate">Growing Hibiscus Kit | Multicolor</h3>
               <div className="flex items-center gap-2 mt-1">
                 <span className="text-lg font-bold">${getCurrentPrice().toFixed(2)}</span>
                 <span className="text-sm text-gray-500 line-through">${getOriginalPrice().toFixed(2)}</span>
               </div>
             </div>
-            <Button onClick={handleAddToCart} className="h-12 px-6 text-sm font-bold rounded-md whitespace-nowrap" style={{ backgroundColor: "#2d5f4f", color: "white" }}>ADD TO CART</Button>
+              <Button onClick={handleAddToCart} className="h-12 px-6 text-sm font-bold rounded-md whitespace-nowrap" style={{ backgroundColor: "#2d5f4f", color: "white" }}>START GROWING</Button>
           </div>
         </div>
       </div>

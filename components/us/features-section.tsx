@@ -3,20 +3,20 @@ import { Flower2 } from "lucide-react"
 export function FeaturesSection() {
   const features = [
     {
-      title: "Ready to Bloom This Spring",
-      description: "Plant now and enjoy the first flowers within weeks — perfectly timed for the new season.",
+      title: "Sprouts in 7 Days, Not Months",
+      description: "Our seeds arrive pre-activated — no dormancy period, no waiting game. Plant them in the exclusive substrate, and you'll see the first green shoots breaking through within a week.",
     },
     {
-      title: "Color That Lasts All Season Long",
-      description: "From the first warm days through early fall, your hibiscus will keep blooming non-stop.",
+      title: "A Complete System That Does the Thinking for You",
+      description: "Substrate, fertilizer, fungicide, seeds, and app — every element is chosen to work together. No guesswork, no extra trips to the garden center, no YouTube rabbit holes.",
     },
     {
-      title: "Thrives Anywhere",
-      description: "Pots, garden beds, patios, or walkways — these plants adapt to whatever space you've got.",
+      title: "Watch the Entire Journey Unfold",
+      description: "From the first tiny sprout to the first spectacular bloom — there's nothing quite like knowing you grew it yourself. This is gardening at its most rewarding.",
     },
     {
-      title: "Brings Your Garden to Life",
-      description: "Vibrant petals attract butterflies and pollinators, turning your outdoor space into a living display.",
+      title: "Colors That Light Up Any Space",
+      description: "Rare double-petal hibiscus in vivid reds, pinks, purples, and yellows. Whether it's a balcony, a patio, or a full garden — these flowers become the centerpiece.",
     },
   ]
 
@@ -40,16 +40,15 @@ export function FeaturesSection() {
           </div>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 text-balance">
-            The Perfect Spring Garden Starts With What You Plant Today.
+            From a Tiny Seed to a Garden That Takes Your Breath Away — In Your Hands, On Your Terms.
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-4xl mx-auto text-pretty">
-            While everyone else waits for spring, smart gardeners are already planting. Get your{" "}
-            <span className="font-semibold text-foreground">Double Hibiscus</span> Starter Kit in the ground now and watch them burst into vibrant, layered blooms right when the warm weather hits — the perfect window to start is closing fast.
+            Most people think growing rare hibiscus from seed is hard. It&apos;s not — when you have the right system. Our Growing Kit gives you pre-activated seeds that sprout in 7 days, an exclusive substrate, professional-grade fertilizer, and a step-by-step video app that walks you through every single stage. You don&apos;t need experience. You don&apos;t need luck. You just need to open the box.
           </p>
         </div>
 
         <div>
-          <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12">{"Features You'll Love"}</h3>
+          <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12">Why Growers Love This Kit</h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-x-12 md:gap-y-10 max-w-5xl mx-auto">
             {features.map((feature, index) => (

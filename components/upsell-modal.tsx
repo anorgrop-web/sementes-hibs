@@ -42,7 +42,7 @@ export function UpsellModal({ isOpen, onClose, onAccept, onDecline }: UpsellModa
 
           {/* Subtitle */}
           <p className="text-base sm:text-lg text-center text-gray-700 text-balance">
-            You are one of a select few chosen to receive the Plus Kit, delivered to your home
+            You are one of a select few chosen to receive the Plus Growing Kit — an exclusive upgrade delivered to your door.
           </p>
 
           {/* Image */}
@@ -59,7 +59,7 @@ export function UpsellModal({ isOpen, onClose, onAccept, onDecline }: UpsellModa
 
           {/* Kit contents description */}
           <p className="text-center text-base sm:text-lg text-gray-800">
-            In this kit, you'll receive 20 Hibiscus plants + 20 Giant Sunflower plants + 20 Galaxy Petunia plants
+            In this kit, you&apos;ll receive: 20 Hibiscus Seeds + 20 Giant Sunflower Seeds + 20 Galaxy Petunia Seeds — all pre-activated, with substrate, fertilizer, and full app access for every variety.
           </p>
 
           {/* Price section */}
@@ -77,14 +77,14 @@ export function UpsellModal({ isOpen, onClose, onAccept, onDecline }: UpsellModa
               onClick={handleAccept}
               className="w-full h-14 text-base font-bold rounded-md bg-green-600 hover:bg-green-700 text-white"
             >
-              Yes, I want the Plus Kit
+              Yes, I Want the Plus Growing Kit
             </Button>
             <Button
               onClick={handleDecline}
               variant="outline"
               className="w-full h-14 text-base font-bold rounded-md bg-gray-400 hover:bg-gray-500 text-white border-gray-400"
             >
-              Just the hibiscus Plants
+              Just the Hibiscus Growing Kit
             </Button>
           </div>
         </div>
