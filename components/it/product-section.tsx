@@ -52,22 +52,14 @@ export function ProductSection() {
 
   const { addItem } = useCart()
 
+  const BADGE = "40 Semi Tradizionali · Non-OGM · +80% Tasso di Germinazione"
+
   const kits = [
-    { id: "20-seeds", label: "OFFERTA SPECIALE — Kit Coltivazione 4 Colori (Giallo, Viola, Rosso e Rosa)", price: 19.87, originalPrice: 39.74 },
-    { id: "75-seeds", label: "Kit Coltivazione Ibisco Rosso — Confezione da 4", price: 24.87, originalPrice: 49.74 },
-    { id: "50-seeds", label: "Kit Coltivazione Ibisco Giallo — Confezione da 4", price: 24.87, originalPrice: 49.74 },
-    {
-      id: "silver-kit",
-      label: "Kit Coltivazione Ibisco Rosa — Confezione da 4",
-      price: 24.87,
-      originalPrice: 49.74,
-    },
-    {
-      id: "gold-kit",
-      label: "Kit Coltivazione Ibisco Viola — Confezione da 4",
-      price: 24.87,
-      originalPrice: 49.74,
-    },
+    { id: "20-seeds", label: "🌟 OFFERTA SPECIALE — Kit Coltivazione 4 Colori", badge: BADGE, price: 19.87, originalPrice: 39.74 },
+    { id: "75-seeds", label: "Kit Coltivazione Ibisco Rosso", badge: BADGE, price: 24.87, originalPrice: 49.74 },
+    { id: "50-seeds", label: "Kit Coltivazione Ibisco Giallo", badge: BADGE, price: 24.87, originalPrice: 49.74 },
+    { id: "silver-kit", label: "Kit Coltivazione Ibisco Rosa", badge: BADGE, price: 24.87, originalPrice: 49.74 },
+    { id: "gold-kit", label: "Kit Coltivazione Ibisco Viola", badge: BADGE, price: 24.87, originalPrice: 49.74 },
   ]
 
   const getCurrentPrice = () => {
@@ -373,7 +365,7 @@ export function ProductSection() {
 
             <div ref={offersRef} className="space-y-3">
               <label className="text-sm font-semibold">
-                Opzioni Kit - {kits.find((k) => k.id === selectedKit)?.label}
+                Opzioni Kit — {kits.find((k) => k.id === selectedKit)?.label}
               </label>
               <div className="space-y-2">
                 {kits.map((kit) => (
@@ -381,13 +373,18 @@ export function ProductSection() {
                     key={kit.id}
                     onClick={() => handleKitSelect(kit.id)}
                     className={cn(
-                      "w-full px-4 py-3 rounded-full border text-sm font-medium text-left transition-all",
+                      "w-full px-4 py-3 rounded-full border text-left transition-all",
                       selectedKit === kit.id
                         ? "bg-black text-white border-black"
+                        : kit.id === "20-seeds"
+                        ? "bg-emerald-50/30 text-black border-emerald-200 hover:border-emerald-300"
                         : "bg-white text-black border-gray-300 hover:border-gray-400",
                     )}
                   >
-                    {kit.label}
+                    <span className="block text-sm font-semibold leading-snug">{kit.label}</span>
+                    <span className={cn("block text-xs mt-0.5", selectedKit === kit.id ? "text-gray-300" : "text-gray-500")}>
+                      {kit.badge}
+                    </span>
                   </button>
                 ))}
               </div>

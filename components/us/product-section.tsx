@@ -85,12 +85,14 @@ export function ProductSection() {
 
   const { addItem } = useCart()
 
+  const BADGE = "40 Heritage Seeds · Non-GMO · +80% Germination Rate"
+
   const kits = [
-    { id: "20-seeds", label: "Special Offer — 4-Color Growing Kit (Yellow, Purple, Red & Pink)", price: 19.90, originalPrice: 39.80 },
-    { id: "75-seeds", label: "Red Hibiscus Growing Kit — Pack of 4", price: 24.90, originalPrice: 49.80 },
-    { id: "50-seeds", label: "Yellow Hibiscus Growing Kit — Pack of 4", price: 24.90, originalPrice: 49.80 },
-    { id: "silver-kit", label: "Pink Hibiscus Growing Kit — Pack of 4", price: 24.90, originalPrice: 49.80 },
-    { id: "gold-kit", label: "Purple Hibiscus Growing Kit — Pack of 4", price: 24.90, originalPrice: 49.80 },
+    { id: "20-seeds", label: "🌟 BEST VALUE — 4-Color Growing Kit", badge: BADGE, price: 19.90, originalPrice: 39.80 },
+    { id: "75-seeds", label: "Red Hibiscus Growing Kit", badge: BADGE, price: 24.90, originalPrice: 49.80 },
+    { id: "50-seeds", label: "Yellow Hibiscus Growing Kit", badge: BADGE, price: 24.90, originalPrice: 49.80 },
+    { id: "silver-kit", label: "Pink Hibiscus Growing Kit", badge: BADGE, price: 24.90, originalPrice: 49.80 },
+    { id: "gold-kit", label: "Purple Hibiscus Growing Kit", badge: BADGE, price: 24.90, originalPrice: 49.80 },
   ]
 
   const getCurrentPrice = () => {
@@ -301,10 +303,26 @@ export function ProductSection() {
             </div>
 
             <div ref={offersRef} className="space-y-3">
-              <label className="text-sm font-semibold">Kit Options - {kits.find((k) => k.id === selectedKit)?.label}</label>
+              <label className="text-sm font-semibold">Kit Options — {kits.find((k) => k.id === selectedKit)?.label}</label>
               <div className="space-y-2">
                 {kits.map((kit) => (
-                  <button key={kit.id} onClick={() => handleKitSelect(kit.id)} className={cn("w-full px-4 py-3 rounded-full border text-sm font-medium text-left transition-all", selectedKit === kit.id ? "bg-black text-white border-black" : "bg-white text-black border-gray-300 hover:border-gray-400")}>{kit.label}</button>
+                  <button
+                    key={kit.id}
+                    onClick={() => handleKitSelect(kit.id)}
+                    className={cn(
+                      "w-full px-4 py-3 rounded-full border text-left transition-all",
+                      selectedKit === kit.id
+                        ? "bg-black text-white border-black"
+                        : kit.id === "20-seeds"
+                        ? "bg-emerald-50/30 text-black border-emerald-200 hover:border-emerald-300"
+                        : "bg-white text-black border-gray-300 hover:border-gray-400",
+                    )}
+                  >
+                    <span className="block text-sm font-semibold leading-snug">{kit.label}</span>
+                    <span className={cn("block text-xs mt-0.5", selectedKit === kit.id ? "text-gray-300" : "text-gray-500")}>
+                      {kit.badge}
+                    </span>
+                  </button>
                 ))}
               </div>
             </div>
