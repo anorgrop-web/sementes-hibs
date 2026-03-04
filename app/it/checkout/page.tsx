@@ -107,21 +107,30 @@ function CheckoutForm() {
 
     switch (countryValue) {
       case "IT":
+        // Italian mobile: 10 digits, format XXX XXX XXXX
+        const itDigits = digits.slice(0, 10)
+        if (itDigits.length <= 3) return itDigits
+        if (itDigits.length <= 6) return `${itDigits.slice(0, 3)} ${itDigits.slice(3)}`
+        return `${itDigits.slice(0, 3)} ${itDigits.slice(3, 6)} ${itDigits.slice(6)}`
+
       case "PT":
       case "ES":
       case "FR":
       case "DE":
+        // Other EU: 9 digits, format XXX XXX XXX
         const euDigits = digits.slice(0, 9)
         if (euDigits.length <= 3) return euDigits
         if (euDigits.length <= 6) return `${euDigits.slice(0, 3)} ${euDigits.slice(3)}`
         return `${euDigits.slice(0, 3)} ${euDigits.slice(3, 6)} ${euDigits.slice(6)}`
 
       case "GB":
-        const ukDigits = digits.slice(0, 10)
-        if (ukDigits.length <= 4) return ukDigits
-        return `${ukDigits.slice(0, 4)} ${ukDigits.slice(4)}`
+        // UK mobile: 11 digits, format XXXXX XXXXXX
+        const ukDigits = digits.slice(0, 11)
+        if (ukDigits.length <= 5) return ukDigits
+        return `${ukDigits.slice(0, 5)} ${ukDigits.slice(5)}`
 
       case "US":
+        // US: 10 digits, format (XXX) XXX-XXXX
         const usDigits = digits.slice(0, 10)
         if (usDigits.length <= 3) return usDigits
         if (usDigits.length <= 6) return `(${usDigits.slice(0, 3)}) ${usDigits.slice(3)}`
