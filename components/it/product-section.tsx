@@ -52,22 +52,14 @@ export function ProductSection() {
 
   const { addItem } = useCart()
 
+  const BADGE = "40 Semi Tradizionali · Non-OGM · +80% Tasso di Germinazione"
+
   const kits = [
-    { id: "20-seeds", label: "OFFERTA SPECIALE — Kit Coltivazione 4 Colori (Giallo, Viola, Rosso e Rosa)", price: 19.87, originalPrice: 39.74 },
-    { id: "75-seeds", label: "Kit Coltivazione Ibisco Rosso — Confezione da 4", price: 24.87, originalPrice: 49.74 },
-    { id: "50-seeds", label: "Kit Coltivazione Ibisco Giallo — Confezione da 4", price: 24.87, originalPrice: 49.74 },
-    {
-      id: "silver-kit",
-      label: "Kit Coltivazione Ibisco Rosa — Confezione da 4",
-      price: 24.87,
-      originalPrice: 49.74,
-    },
-    {
-      id: "gold-kit",
-      label: "Kit Coltivazione Ibisco Viola — Confezione da 4",
-      price: 24.87,
-      originalPrice: 49.74,
-    },
+    { id: "20-seeds", label: "🌟 OFFERTA SPECIALE — Kit Coltivazione 4 Colori", badge: BADGE, price: 19.87, originalPrice: 39.74, details: "Contenuto: 10 Rosso + 10 Giallo + 10 Rosa + 10 Viola semi tradizionali (40 totali) + substrato esclusivo + fertilizzante acceleratore di fioritura + fungicida + accesso completo all'app. Un giardino di ibisco multicolore completo in una scatola." },
+    { id: "75-seeds", label: "Kit Coltivazione Ibisco Rosso", badge: BADGE, price: 24.87, originalPrice: 49.74, details: "Contenuto: 40 semi tradizionali di Ibisco Rosso + substrato esclusivo + fertilizzante acceleratore di fioritura + fungicida + accesso completo all'app. Tutto per coltivare una splendida collezione di ibisco rosso." },
+    { id: "50-seeds", label: "Kit Coltivazione Ibisco Giallo", badge: BADGE, price: 24.87, originalPrice: 49.74, details: "Contenuto: 40 semi tradizionali di Ibisco Giallo + substrato esclusivo + fertilizzante acceleratore di fioritura + fungicida + accesso completo all'app. Tutto per coltivare una radiosa collezione di ibisco giallo." },
+    { id: "silver-kit", label: "Kit Coltivazione Ibisco Rosa", badge: BADGE, price: 24.87, originalPrice: 49.74, details: "Contenuto: 40 semi tradizionali di Ibisco Rosa + substrato esclusivo + fertilizzante acceleratore di fioritura + fungicida + accesso completo all'app. Tutto per coltivare un'elegante collezione di ibisco rosa." },
+    { id: "gold-kit", label: "Kit Coltivazione Ibisco Viola", badge: BADGE, price: 24.87, originalPrice: 49.74, details: "Contenuto: 40 semi tradizionali di Ibisco Viola + substrato esclusivo + fertilizzante acceleratore di fioritura + fungicida + accesso completo all'app. Tutto per coltivare una straordinaria collezione di ibisco viola." },
   ]
 
   const getCurrentPrice = () => {
@@ -117,12 +109,10 @@ export function ProductSection() {
   }
 
   const handleAcceptUpsell = () => {
-    console.log("[v0] User accepted Plus Kit upsell")
     setShowUpsellModal(false)
   }
 
   const handleDeclineUpsell = () => {
-    console.log("[v0] User declined Plus Kit upsell, proceeding with free hibiscus seeds")
     setShowUpsellModal(false)
   }
 
@@ -361,6 +351,14 @@ export function ProductSection() {
               </div>
             </div>
 
+            <div className="bg-gray-50 rounded-lg p-3 mt-3 mb-3">
+              <p className="font-semibold text-sm text-gray-800 mb-1">Il Suo Kit Completo Include:</p>
+              <p className="text-xs text-gray-600 leading-relaxed">40 Semi di Ibisco Tradizionali (Non-OGM, pre-attivati — germogliano in 7 giorni)</p>
+              <p className="text-xs text-gray-600 leading-relaxed">Fertilizzante Acceleratore di Fioritura + Fungicida Protettivo</p>
+              <p className="text-xs text-gray-600 leading-relaxed">Substrato Esclusivo per Germinazione + App Versia Garden con Video-Lezioni</p>
+              <p className="text-xs font-medium text-emerald-700 mt-1">{"Nient'altro da comprare. Apra la scatola e inizi a coltivare."}</p>
+            </div>
+
             <div className="flex items-center gap-3">
               <span className="text-3xl font-bold">€{getCurrentPrice().toFixed(2).replace(".", ",")}</span>
               <span className="text-lg text-gray-500 line-through">
@@ -373,22 +371,34 @@ export function ProductSection() {
 
             <div ref={offersRef} className="space-y-3">
               <label className="text-sm font-semibold">
-                Opzioni Kit - {kits.find((k) => k.id === selectedKit)?.label}
+                Opzioni Kit — {kits.find((k) => k.id === selectedKit)?.label}
               </label>
               <div className="space-y-2">
                 {kits.map((kit) => (
+                  <>
                   <button
                     key={kit.id}
                     onClick={() => handleKitSelect(kit.id)}
                     className={cn(
-                      "w-full px-4 py-3 rounded-full border text-sm font-medium text-left transition-all",
+                      "w-full px-4 py-3 rounded-full border text-left transition-all",
                       selectedKit === kit.id
                         ? "bg-black text-white border-black"
+                        : kit.id === "20-seeds"
+                        ? "bg-emerald-50/30 text-black border-emerald-200 hover:border-emerald-300"
                         : "bg-white text-black border-gray-300 hover:border-gray-400",
                     )}
                   >
-                    {kit.label}
+                    <span className="block text-sm font-semibold leading-snug">{kit.label}</span>
+                    <span className={cn("block text-xs mt-0.5", selectedKit === kit.id ? "text-gray-300" : "text-gray-500")}>
+                      {kit.badge}
+                    </span>
                   </button>
+                  {selectedKit === kit.id && (
+                    <div className="text-sm text-gray-600 border-l-2 border-emerald-600 pl-3 py-2 mt-1 mb-2 transition-all duration-300 ease-in-out">
+                      {kit.details}
+                    </div>
+                  )}
+                  </>
                 ))}
               </div>
             </div>
