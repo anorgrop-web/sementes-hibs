@@ -88,11 +88,11 @@ export function ProductSection() {
   const BADGE = "40 Heritage Seeds · Non-GMO · +80% Germination Rate"
 
   const kits = [
-    { id: "20-seeds", label: "🌟 BEST VALUE — 4-Colour Growing Kit", badge: BADGE, price: 19.87, originalPrice: 39.74 },
-    { id: "75-seeds", label: "Red Hibiscus Growing Kit", badge: BADGE, price: 24.87, originalPrice: 49.74 },
-    { id: "50-seeds", label: "Yellow Hibiscus Growing Kit", badge: BADGE, price: 24.87, originalPrice: 49.74 },
-    { id: "silver-kit", label: "Pink Hibiscus Growing Kit", badge: BADGE, price: 24.87, originalPrice: 49.74 },
-    { id: "gold-kit", label: "Purple Hibiscus Growing Kit", badge: BADGE, price: 24.87, originalPrice: 49.74 },
+    { id: "20-seeds", label: "🌟 BEST VALUE — 4-Colour Growing Kit", badge: BADGE, price: 19.87, originalPrice: 39.74, details: "Inside: 10 Red + 10 Yellow + 10 Pink + 10 Purple heritage seeds (40 total) + exclusive substrate + bloom accelerator fertilizer + fungicide + full app access. A complete multicolour hibiscus garden in one box." },
+    { id: "75-seeds", label: "Red Hibiscus Growing Kit", badge: BADGE, price: 24.87, originalPrice: 49.74, details: "Inside: 40 heritage Red Hibiscus seeds + exclusive substrate + bloom accelerator fertilizer + fungicide + full app access. Everything to grow a stunning red hibiscus collection." },
+    { id: "50-seeds", label: "Yellow Hibiscus Growing Kit", badge: BADGE, price: 24.87, originalPrice: 49.74, details: "Inside: 40 heritage Yellow Hibiscus seeds + exclusive substrate + bloom accelerator fertilizer + fungicide + full app access. Everything to grow a radiant yellow hibiscus collection." },
+    { id: "silver-kit", label: "Pink Hibiscus Growing Kit", badge: BADGE, price: 24.87, originalPrice: 49.74, details: "Inside: 40 heritage Pink Hibiscus seeds + exclusive substrate + bloom accelerator fertilizer + fungicide + full app access. Everything to grow an elegant pink hibiscus collection." },
+    { id: "gold-kit", label: "Purple Hibiscus Growing Kit", badge: BADGE, price: 24.87, originalPrice: 49.74, details: "Inside: 40 heritage Purple Hibiscus seeds + exclusive substrate + bloom accelerator fertilizer + fungicide + full app access. Everything to grow a striking purple hibiscus collection." },
   ]
 
   const getCurrentPrice = () => {
@@ -411,6 +411,14 @@ export function ProductSection() {
               </div>
             </div>
 
+            <div className="bg-gray-50 rounded-lg p-3 mt-3 mb-3">
+              <p className="font-semibold text-sm text-gray-800 mb-1">Your Complete Kit Includes:</p>
+              <p className="text-xs text-gray-600 leading-relaxed">40 Heritage Hibiscus Seeds (Non-GMO, pre-activated — sprout in 7 days)</p>
+              <p className="text-xs text-gray-600 leading-relaxed">Bloom Accelerator Fertilizer + Protective Fungicide</p>
+              <p className="text-xs text-gray-600 leading-relaxed">Exclusive Germination Substrate + Versia Garden App with Video Lessons</p>
+              <p className="text-xs font-medium text-emerald-700 mt-1">Nothing else to buy. Open the box and start growing.</p>
+            </div>
+
             <div className="flex items-center gap-3">
               <span className="text-3xl font-bold">£{getCurrentPrice().toFixed(2).replace(".", ",")}</span>
               <span className="text-lg text-gray-500 line-through">
@@ -444,6 +452,11 @@ export function ProductSection() {
                       {kit.badge}
                     </span>
                   </button>
+                  {selectedKit === kit.id && (
+                    <div className="text-sm text-gray-600 border-l-2 border-emerald-600 pl-3 py-2 mt-1 mb-2 transition-all duration-300 ease-in-out">
+                      {kit.details}
+                    </div>
+                  )}
                 ))}
               </div>
             </div>
