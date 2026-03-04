@@ -150,13 +150,10 @@ export function ProductSection() {
   }
 
   const handleAcceptUpsell = () => {
-    console.log("[v0] User accepted Plus Kit upsell")
     setShowUpsellModal(false)
-    // window.location.href = "PLUS_KIT_SHOPIFY_URL"
   }
 
   const handleDeclineUpsell = () => {
-    console.log("[v0] User declined Plus Kit upsell, proceeding with free hibiscus seeds")
     setShowUpsellModal(false)
   }
 
@@ -435,6 +432,7 @@ export function ProductSection() {
               </label>
               <div className="space-y-2">
                 {kits.map((kit) => (
+                  <>
                   <button
                     key={kit.id}
                     onClick={() => handleKitSelect(kit.id)}
@@ -457,6 +455,7 @@ export function ProductSection() {
                       {kit.details}
                     </div>
                   )}
+                  </>
                 ))}
               </div>
             </div>

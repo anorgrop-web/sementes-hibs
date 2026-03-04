@@ -314,6 +314,7 @@ export function ProductSection() {
               <label className="text-sm font-semibold">Kit Options — {kits.find((k) => k.id === selectedKit)?.label}</label>
               <div className="space-y-2">
                 {kits.map((kit) => (
+                  <>
                   <button
                     key={kit.id}
                     onClick={() => handleKitSelect(kit.id)}
@@ -336,6 +337,7 @@ export function ProductSection() {
                       {kit.details}
                     </div>
                   )}
+                  </>
                 ))}
               </div>
             </div>
