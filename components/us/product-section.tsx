@@ -314,9 +314,8 @@ export function ProductSection() {
               <label className="text-sm font-semibold">Kit Options — {kits.find((k) => k.id === selectedKit)?.label}</label>
               <div className="space-y-2">
                 {kits.map((kit) => (
-                  <>
+                  <div key={kit.id}>
                   <button
-                    key={kit.id}
                     onClick={() => handleKitSelect(kit.id)}
                     className={cn(
                       "w-full px-4 py-3 rounded-full border text-left transition-all",
@@ -337,7 +336,7 @@ export function ProductSection() {
                       {kit.details}
                     </div>
                   )}
-                  </>
+                  </div>
                 ))}
               </div>
             </div>
